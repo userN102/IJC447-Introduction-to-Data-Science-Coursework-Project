@@ -1,4 +1,6 @@
 
+# IJC447-Introduction-to-Data-Science-Coursework-Project
+
 # Enterprise Entry, Survival, and Growth across UK Industries (2019–2023)
 
 This project analyses UK industry-level business demography data (ONS) to understand how **enterprise births** differ across industries and time. It combines cleaned ONS tables into a single master panel, uses **exploratory data analysis (EDA)** to describe patterns and relationships, and then evaluates **forecast-style prediction models** using lagged indicators and time-aware cross-validation.
@@ -20,8 +22,6 @@ This project analyses UK industry-level business demography data (ONS) to unders
 
 ## Repository Structure
 
-Suggested structure (adjust paths if yours differ):
-
 * `Dataset/ONS_Business_Demography/`
   Cleaned CSVs extracted from the ONS Excel workbook (one file per table).
 * `Dataset/Final_Master_Datasets/`
@@ -42,29 +42,29 @@ Suggested structure (adjust paths if yours differ):
 
 These scripts read ONS tables and save tidy CSV outputs (long format unless noted):
 
-* `Table_1_2_Births.R` → births of new enterprises by industry/year
-* `Table_2_2_Deaths_New.R` → deaths of new enterprises by industry/year
-* `Table_3_2_Active.R` → active enterprises by industry/year
-* `Table_7_2_HighGrowth.R` → high-growth enterprises by industry/year
-* `Table_7_4_Active10Plus.R` → active enterprises (10+ employees) by industry/year
-* `Table_5_2_Survival_2019_2023.R` → births + survival (1–5 years) by industry/year (wide)
+* `enterprise_births_industry.R` → births of new enterprises by industry/year
+* `enterprise_deaths_industry.R` → deaths of new enterprises by industry/year
+* `active_enterprises_industry.R` → active enterprises by industry/year
+* `high_growth_enterprises_industry.R` → high-growth enterprises by industry/year
+* `active_enterprises_10_employer_industry.R` → active enterprises (10+ employees) by industry/year
+* `enterprise_survival_industry.R` → births + survival (1–5 years) by industry/year 
 
-> Note: Filenames above are examples. Use your actual script names, but keep the order and logic.
 
 ### 2) Build master panel (merge all indicators)
 
-* `Build_Master_Panel.R`
+* `merge_industry_characteristics.R`
   Reads the cleaned CSV files and merges them into:
   `Dataset/Final_Master_Datasets/master_panel_industry_characteristics_2019_2023.csv`
 
+
 ### 3) EDA (RQ1)
 
-* `EDA_RQ1.R`
+* `RQ1_EDA.R`
   Produces distributions, time patterns, industry comparisons, association plots, and correlation matrices to justify feature choices for modelling.
 
 ### 4) Modelling (RQ2)
 
-* `RQ2_Modelling.R`
+* `RQ2_regression_model.R`
   Builds lagged predictors (t-1), runs time-aware cross-validation, compares:
 
   * **Naive lag baseline**
@@ -156,5 +156,3 @@ After running all scripts, you should see:
 * Cross-validation is **time-aware** (train years precede test years) to avoid using future information.
 * The dataset is short (2019–2023), so results should be interpreted as **indicative**, not definitive.
 
----
-# IJC447-Introduction-to-Data-Science-Coursework-Project

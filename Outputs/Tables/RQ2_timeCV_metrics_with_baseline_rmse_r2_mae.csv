@@ -1,0 +1,10 @@
+model,.metric,mean,std_err,n
+Linear regression (lag-only),mae,0.3078367274152835,0.015539978410103737,2
+Naive lag baseline,mae,0.22751589995927513,0.024463925717947435,2
+"Random forest (tuned, lag-only)",mae,0.2911989810449337,0.007856664,2
+Linear regression (lag-only),rmse,0.4566132101430934,0.038056049,2
+Naive lag baseline,rmse,0.42428637898374677,0.090189861,2
+"Random forest (tuned, lag-only)",rmse,0.3916783296735008,0.030315106572719186,2
+Linear regression (lag-only),rsq,0.9673811566107987,0.008335334,2
+Naive lag baseline,rsq,0.9695536306425965,0.012070022595906116,2
+"Random forest (tuned, lag-only)",rsq,0.9784391496105709,0.004229811,2

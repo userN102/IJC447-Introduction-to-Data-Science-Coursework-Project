@@ -1,0 +1,7 @@
+id,.metric,.estimator,.estimate,.config,model
+Train_2020_2021_Test_2022,rmse,standard,0.494669259258012,pre0_mod0_post0,Linear regression (lag-only)
+Train_2020_2021_Test_2022,rsq,standard,0.959045822594785,pre0_mod0_post0,Linear regression (lag-only)
+Train_2020_2021_Test_2022,mae,standard,0.32337670582538725,pre0_mod0_post0,Linear regression (lag-only)
+Train_2020_2022_Test_2023,rmse,standard,0.4185571610281748,pre0_mod0_post0,Linear regression (lag-only)
+Train_2020_2022_Test_2023,rsq,standard,0.9757164906268124,pre0_mod0_post0,Linear regression (lag-only)
+Train_2020_2022_Test_2023,mae,standard,0.29229674900517977,pre0_mod0_post0,Linear regression (lag-only)

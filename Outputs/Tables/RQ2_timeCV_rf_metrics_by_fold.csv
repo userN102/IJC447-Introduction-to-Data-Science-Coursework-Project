@@ -1,0 +1,7 @@
+id,.metric,.estimator,.estimate,.config,model
+Train_2020_2021_Test_2022,rmse,standard,0.42199343624622,pre0_mod0_post0,"Random forest (tuned, lag-only)"
+Train_2020_2021_Test_2022,rsq,standard,0.9742093384437516,pre0_mod0_post0,"Random forest (tuned, lag-only)"
+Train_2020_2021_Test_2022,mae,standard,0.29905564500975346,pre0_mod0_post0,"Random forest (tuned, lag-only)"
+Train_2020_2022_Test_2023,rmse,standard,0.3613632231007816,pre0_mod0_post0,"Random forest (tuned, lag-only)"
+Train_2020_2022_Test_2023,rsq,standard,0.9826689607773902,pre0_mod0_post0,"Random forest (tuned, lag-only)"
+Train_2020_2022_Test_2023,mae,standard,0.283342317080114,pre0_mod0_post0,"Random forest (tuned, lag-only)"

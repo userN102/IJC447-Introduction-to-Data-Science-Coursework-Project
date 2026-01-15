@@ -1,0 +1,1999 @@
+"industry_raw","industry_code","industry_level","year","active_enterprises_10plus_employees"
+"05 : Mining of coal and lignite","05","division","2019",10
+"05 : Mining of coal and lignite","05","division","2020",5
+"05 : Mining of coal and lignite","05","division","2021",5
+"05 : Mining of coal and lignite","05","division","2022",5
+"05 : Mining of coal and lignite","05","division","2023",0
+"05 : Mining of coal and lignite","05","division","2024",0
+"051 : Mining of hard coal","051","group","2019",10
+"051 : Mining of hard coal","051","group","2020",5
+"051 : Mining of hard coal","051","group","2021",5
+"051 : Mining of hard coal","051","group","2022",5
+"051 : Mining of hard coal","051","group","2023",0
+"051 : Mining of hard coal","051","group","2024",0
+"052 : Mining of lignite","052","group","2019",0
+"052 : Mining of lignite","052","group","2020",0
+"052 : Mining of lignite","052","group","2021",0
+"052 : Mining of lignite","052","group","2022",0
+"052 : Mining of lignite","052","group","2023",0
+"052 : Mining of lignite","052","group","2024",0
+"06 : Extraction of crude petroleum and natural gas","06","division","2019",40
+"06 : Extraction of crude petroleum and natural gas","06","division","2020",40
+"06 : Extraction of crude petroleum and natural gas","06","division","2021",40
+"06 : Extraction of crude petroleum and natural gas","06","division","2022",35
+"06 : Extraction of crude petroleum and natural gas","06","division","2023",30
+"06 : Extraction of crude petroleum and natural gas","06","division","2024",30
+"061 : Extraction of crude petroleum","061","group","2019",35
+"061 : Extraction of crude petroleum","061","group","2020",40
+"061 : Extraction of crude petroleum","061","group","2021",40
+"061 : Extraction of crude petroleum","061","group","2022",35
+"061 : Extraction of crude petroleum","061","group","2023",30
+"061 : Extraction of crude petroleum","061","group","2024",30
+"062 : Extraction of natural gas","062","group","2019",5
+"062 : Extraction of natural gas","062","group","2020",0
+"062 : Extraction of natural gas","062","group","2021",0
+"062 : Extraction of natural gas","062","group","2022",0
+"062 : Extraction of natural gas","062","group","2023",0
+"062 : Extraction of natural gas","062","group","2024",0
+"07 : Mining of metal ores","07","division","2019",0
+"07 : Mining of metal ores","07","division","2020",0
+"07 : Mining of metal ores","07","division","2021",0
+"07 : Mining of metal ores","07","division","2022",0
+"07 : Mining of metal ores","07","division","2023",0
+"07 : Mining of metal ores","07","division","2024",0
+"071 : Mining of iron ores","071","group","2019",0
+"071 : Mining of iron ores","071","group","2020",0
+"071 : Mining of iron ores","071","group","2021",0
+"071 : Mining of iron ores","071","group","2022",0
+"071 : Mining of iron ores","071","group","2023",0
+"071 : Mining of iron ores","071","group","2024",0
+"072 : Mining of non-ferrous metal ores","072","group","2019",0
+"072 : Mining of non-ferrous metal ores","072","group","2020",0
+"072 : Mining of non-ferrous metal ores","072","group","2021",0
+"072 : Mining of non-ferrous metal ores","072","group","2022",0
+"072 : Mining of non-ferrous metal ores","072","group","2023",0
+"072 : Mining of non-ferrous metal ores","072","group","2024",0
+"08 : Other mining and quarrying","08","division","2019",200
+"08 : Other mining and quarrying","08","division","2020",205
+"08 : Other mining and quarrying","08","division","2021",210
+"08 : Other mining and quarrying","08","division","2022",200
+"08 : Other mining and quarrying","08","division","2023",200
+"08 : Other mining and quarrying","08","division","2024",200
+"081 : Quarrying of stone, sand and clay","081","group","2019",165
+"081 : Quarrying of stone, sand and clay","081","group","2020",165
+"081 : Quarrying of stone, sand and clay","081","group","2021",165
+"081 : Quarrying of stone, sand and clay","081","group","2022",160
+"081 : Quarrying of stone, sand and clay","081","group","2023",155
+"081 : Quarrying of stone, sand and clay","081","group","2024",155
+"089 : Mining and quarrying n.e.c.","089","group","2019",35
+"089 : Mining and quarrying n.e.c.","089","group","2020",40
+"089 : Mining and quarrying n.e.c.","089","group","2021",45
+"089 : Mining and quarrying n.e.c.","089","group","2022",40
+"089 : Mining and quarrying n.e.c.","089","group","2023",45
+"089 : Mining and quarrying n.e.c.","089","group","2024",45
+"09 : Mining support service activities","09","division","2019",90
+"09 : Mining support service activities","09","division","2020",80
+"09 : Mining support service activities","09","division","2021",75
+"09 : Mining support service activities","09","division","2022",75
+"09 : Mining support service activities","09","division","2023",85
+"09 : Mining support service activities","09","division","2024",80
+"091 : Support activities for petroleum and natural gas extraction","091","group","2019",75
+"091 : Support activities for petroleum and natural gas extraction","091","group","2020",65
+"091 : Support activities for petroleum and natural gas extraction","091","group","2021",60
+"091 : Support activities for petroleum and natural gas extraction","091","group","2022",60
+"091 : Support activities for petroleum and natural gas extraction","091","group","2023",70
+"091 : Support activities for petroleum and natural gas extraction","091","group","2024",60
+"099 : Support activities for other mining and quarrying","099","group","2019",15
+"099 : Support activities for other mining and quarrying","099","group","2020",15
+"099 : Support activities for other mining and quarrying","099","group","2021",15
+"099 : Support activities for other mining and quarrying","099","group","2022",15
+"099 : Support activities for other mining and quarrying","099","group","2023",15
+"099 : Support activities for other mining and quarrying","099","group","2024",20
+"10 : Manufacture of food products","10","division","2019",2775
+"10 : Manufacture of food products","10","division","2020",2755
+"10 : Manufacture of food products","10","division","2021",2810
+"10 : Manufacture of food products","10","division","2022",2880
+"10 : Manufacture of food products","10","division","2023",2900
+"10 : Manufacture of food products","10","division","2024",2930
+"101 : Processing and preserving of meat and production of meat products","101","group","2019",410
+"101 : Processing and preserving of meat and production of meat products","101","group","2020",415
+"101 : Processing and preserving of meat and production of meat products","101","group","2021",410
+"101 : Processing and preserving of meat and production of meat products","101","group","2022",410
+"101 : Processing and preserving of meat and production of meat products","101","group","2023",410
+"101 : Processing and preserving of meat and production of meat products","101","group","2024",400
+"102 : Processing and preserving of fish, crustaceans and molluscs","102","group","2019",145
+"102 : Processing and preserving of fish, crustaceans and molluscs","102","group","2020",140
+"102 : Processing and preserving of fish, crustaceans and molluscs","102","group","2021",145
+"102 : Processing and preserving of fish, crustaceans and molluscs","102","group","2022",145
+"102 : Processing and preserving of fish, crustaceans and molluscs","102","group","2023",145
+"102 : Processing and preserving of fish, crustaceans and molluscs","102","group","2024",145
+"103 : Processing and preserving of fruit and vegetables","103","group","2019",155
+"103 : Processing and preserving of fruit and vegetables","103","group","2020",160
+"103 : Processing and preserving of fruit and vegetables","103","group","2021",150
+"103 : Processing and preserving of fruit and vegetables","103","group","2022",160
+"103 : Processing and preserving of fruit and vegetables","103","group","2023",145
+"103 : Processing and preserving of fruit and vegetables","103","group","2024",150
+"104 : Manufacture of vegetable and animal oils and fats","104","group","2019",20
+"104 : Manufacture of vegetable and animal oils and fats","104","group","2020",20
+"104 : Manufacture of vegetable and animal oils and fats","104","group","2021",15
+"104 : Manufacture of vegetable and animal oils and fats","104","group","2022",15
+"104 : Manufacture of vegetable and animal oils and fats","104","group","2023",15
+"104 : Manufacture of vegetable and animal oils and fats","104","group","2024",15
+"105 : Manufacture of dairy products","105","group","2019",225
+"105 : Manufacture of dairy products","105","group","2020",220
+"105 : Manufacture of dairy products","105","group","2021",215
+"105 : Manufacture of dairy products","105","group","2022",230
+"105 : Manufacture of dairy products","105","group","2023",220
+"105 : Manufacture of dairy products","105","group","2024",235
+"106 : Manufacture of grain mill products, starches and starch products","106","group","2019",65
+"106 : Manufacture of grain mill products, starches and starch products","106","group","2020",60
+"106 : Manufacture of grain mill products, starches and starch products","106","group","2021",60
+"106 : Manufacture of grain mill products, starches and starch products","106","group","2022",60
+"106 : Manufacture of grain mill products, starches and starch products","106","group","2023",60
+"106 : Manufacture of grain mill products, starches and starch products","106","group","2024",60
+"107 : Manufacture of bakery and farinaceous products","107","group","2019",970
+"107 : Manufacture of bakery and farinaceous products","107","group","2020",950
+"107 : Manufacture of bakery and farinaceous products","107","group","2021",965
+"107 : Manufacture of bakery and farinaceous products","107","group","2022",1000
+"107 : Manufacture of bakery and farinaceous products","107","group","2023",1025
+"107 : Manufacture of bakery and farinaceous products","107","group","2024",1005
+"108 : Manufacture of other food products","108","group","2019",610
+"108 : Manufacture of other food products","108","group","2020",610
+"108 : Manufacture of other food products","108","group","2021",650
+"108 : Manufacture of other food products","108","group","2022",665
+"108 : Manufacture of other food products","108","group","2023",680
+"108 : Manufacture of other food products","108","group","2024",715
+"109 : Manufacture of prepared animal feeds","109","group","2019",175
+"109 : Manufacture of prepared animal feeds","109","group","2020",180
+"109 : Manufacture of prepared animal feeds","109","group","2021",200
+"109 : Manufacture of prepared animal feeds","109","group","2022",195
+"109 : Manufacture of prepared animal feeds","109","group","2023",200
+"109 : Manufacture of prepared animal feeds","109","group","2024",205
+"11 : Manufacture of beverages","11","division","2019",420
+"11 : Manufacture of beverages","11","division","2020",435
+"11 : Manufacture of beverages","11","division","2021",440
+"11 : Manufacture of beverages","11","division","2022",510
+"11 : Manufacture of beverages","11","division","2023",515
+"11 : Manufacture of beverages","11","division","2024",550
+"110 : Manufacture of beverages","110","group","2019",420
+"110 : Manufacture of beverages","110","group","2020",435
+"110 : Manufacture of beverages","110","group","2021",440
+"110 : Manufacture of beverages","110","group","2022",510
+"110 : Manufacture of beverages","110","group","2023",515
+"110 : Manufacture of beverages","110","group","2024",550
+"12 : Manufacture of tobacco products","12","division","2019",5
+"12 : Manufacture of tobacco products","12","division","2020",5
+"12 : Manufacture of tobacco products","12","division","2021",5
+"12 : Manufacture of tobacco products","12","division","2022",0
+"12 : Manufacture of tobacco products","12","division","2023",0
+"12 : Manufacture of tobacco products","12","division","2024",0
+"120 : Manufacture of tobacco products","120","group","2019",5
+"120 : Manufacture of tobacco products","120","group","2020",5
+"120 : Manufacture of tobacco products","120","group","2021",5
+"120 : Manufacture of tobacco products","120","group","2022",0
+"120 : Manufacture of tobacco products","120","group","2023",0
+"120 : Manufacture of tobacco products","120","group","2024",0
+"13 : Manufacture of textiles","13","division","2019",975
+"13 : Manufacture of textiles","13","division","2020",940
+"13 : Manufacture of textiles","13","division","2021",945
+"13 : Manufacture of textiles","13","division","2022",920
+"13 : Manufacture of textiles","13","division","2023",915
+"13 : Manufacture of textiles","13","division","2024",885
+"131 : Preparation and spinning of textile fibres","131","group","2019",40
+"131 : Preparation and spinning of textile fibres","131","group","2020",40
+"131 : Preparation and spinning of textile fibres","131","group","2021",35
+"131 : Preparation and spinning of textile fibres","131","group","2022",35
+"131 : Preparation and spinning of textile fibres","131","group","2023",35
+"131 : Preparation and spinning of textile fibres","131","group","2024",35
+"132 : Weaving of textiles","132","group","2019",65
+"132 : Weaving of textiles","132","group","2020",65
+"132 : Weaving of textiles","132","group","2021",65
+"132 : Weaving of textiles","132","group","2022",65
+"132 : Weaving of textiles","132","group","2023",70
+"132 : Weaving of textiles","132","group","2024",65
+"133 : Finishing of textiles","133","group","2019",215
+"133 : Finishing of textiles","133","group","2020",195
+"133 : Finishing of textiles","133","group","2021",185
+"133 : Finishing of textiles","133","group","2022",170
+"133 : Finishing of textiles","133","group","2023",165
+"133 : Finishing of textiles","133","group","2024",155
+"139 : Manufacture of other textiles","139","group","2019",655
+"139 : Manufacture of other textiles","139","group","2020",640
+"139 : Manufacture of other textiles","139","group","2021",660
+"139 : Manufacture of other textiles","139","group","2022",650
+"139 : Manufacture of other textiles","139","group","2023",645
+"139 : Manufacture of other textiles","139","group","2024",630
+"14 : Manufacture of wearing apparel","14","division","2019",710
+"14 : Manufacture of wearing apparel","14","division","2020",670
+"14 : Manufacture of wearing apparel","14","division","2021",635
+"14 : Manufacture of wearing apparel","14","division","2022",585
+"14 : Manufacture of wearing apparel","14","division","2023",490
+"14 : Manufacture of wearing apparel","14","division","2024",445
+"141 : Manufacture of wearing apparel, except fur apparel","141","group","2019",635
+"141 : Manufacture of wearing apparel, except fur apparel","141","group","2020",605
+"141 : Manufacture of wearing apparel, except fur apparel","141","group","2021",570
+"141 : Manufacture of wearing apparel, except fur apparel","141","group","2022",530
+"141 : Manufacture of wearing apparel, except fur apparel","141","group","2023",440
+"141 : Manufacture of wearing apparel, except fur apparel","141","group","2024",395
+"142 : Manufacture of articles of fur","142","group","2019",5
+"142 : Manufacture of articles of fur","142","group","2020",0
+"142 : Manufacture of articles of fur","142","group","2021",0
+"142 : Manufacture of articles of fur","142","group","2022",0
+"142 : Manufacture of articles of fur","142","group","2023",0
+"142 : Manufacture of articles of fur","142","group","2024",0
+"143 : Manufacture of knitted and crocheted apparel","143","group","2019",70
+"143 : Manufacture of knitted and crocheted apparel","143","group","2020",65
+"143 : Manufacture of knitted and crocheted apparel","143","group","2021",65
+"143 : Manufacture of knitted and crocheted apparel","143","group","2022",55
+"143 : Manufacture of knitted and crocheted apparel","143","group","2023",50
+"143 : Manufacture of knitted and crocheted apparel","143","group","2024",50
+"15 : Manufacture of leather and related products","15","division","2019",115
+"15 : Manufacture of leather and related products","15","division","2020",110
+"15 : Manufacture of leather and related products","15","division","2021",105
+"15 : Manufacture of leather and related products","15","division","2022",110
+"15 : Manufacture of leather and related products","15","division","2023",105
+"15 : Manufacture of leather and related products","15","division","2024",105
+"151 : Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur","151","group","2019",75
+"151 : Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur","151","group","2020",65
+"151 : Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur","151","group","2021",65
+"151 : Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur","151","group","2022",65
+"151 : Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur","151","group","2023",65
+"151 : Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur","151","group","2024",65
+"152 : Manufacture of footwear","152","group","2019",40
+"152 : Manufacture of footwear","152","group","2020",45
+"152 : Manufacture of footwear","152","group","2021",40
+"152 : Manufacture of footwear","152","group","2022",45
+"152 : Manufacture of footwear","152","group","2023",40
+"152 : Manufacture of footwear","152","group","2024",40
+"16 : Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials","16","division","2019",1335
+"16 : Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials","16","division","2020",1310
+"16 : Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials","16","division","2021",1330
+"16 : Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials","16","division","2022",1400
+"16 : Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials","16","division","2023",1375
+"16 : Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials","16","division","2024",1335
+"161 : Sawmilling and planing of wood","161","group","2019",120
+"161 : Sawmilling and planing of wood","161","group","2020",115
+"161 : Sawmilling and planing of wood","161","group","2021",120
+"161 : Sawmilling and planing of wood","161","group","2022",125
+"161 : Sawmilling and planing of wood","161","group","2023",120
+"161 : Sawmilling and planing of wood","161","group","2024",120
+"162 : Manufacture of products of wood, cork, straw and plaiting materials","162","group","2019",1215
+"162 : Manufacture of products of wood, cork, straw and plaiting materials","162","group","2020",1195
+"162 : Manufacture of products of wood, cork, straw and plaiting materials","162","group","2021",1210
+"162 : Manufacture of products of wood, cork, straw and plaiting materials","162","group","2022",1275
+"162 : Manufacture of products of wood, cork, straw and plaiting materials","162","group","2023",1255
+"162 : Manufacture of products of wood, cork, straw and plaiting materials","162","group","2024",1215
+"17 : Manufacture of paper and paper products","17","division","2019",590
+"17 : Manufacture of paper and paper products","17","division","2020",580
+"17 : Manufacture of paper and paper products","17","division","2021",565
+"17 : Manufacture of paper and paper products","17","division","2022",570
+"17 : Manufacture of paper and paper products","17","division","2023",565
+"17 : Manufacture of paper and paper products","17","division","2024",560
+"171 : Manufacture of pulp, paper and paperboard","171","group","2019",75
+"171 : Manufacture of pulp, paper and paperboard","171","group","2020",70
+"171 : Manufacture of pulp, paper and paperboard","171","group","2021",75
+"171 : Manufacture of pulp, paper and paperboard","171","group","2022",75
+"171 : Manufacture of pulp, paper and paperboard","171","group","2023",65
+"171 : Manufacture of pulp, paper and paperboard","171","group","2024",65
+"172 : Manufacture of articles of paper and paperboard","172","group","2019",515
+"172 : Manufacture of articles of paper and paperboard","172","group","2020",510
+"172 : Manufacture of articles of paper and paperboard","172","group","2021",490
+"172 : Manufacture of articles of paper and paperboard","172","group","2022",495
+"172 : Manufacture of articles of paper and paperboard","172","group","2023",500
+"172 : Manufacture of articles of paper and paperboard","172","group","2024",495
+"18 : Printing and reproduction of recorded media","18","division","2019",1695
+"18 : Printing and reproduction of recorded media","18","division","2020",1615
+"18 : Printing and reproduction of recorded media","18","division","2021",1495
+"18 : Printing and reproduction of recorded media","18","division","2022",1435
+"18 : Printing and reproduction of recorded media","18","division","2023",1360
+"18 : Printing and reproduction of recorded media","18","division","2024",1305
+"181 : Printing and service activities related to printing","181","group","2019",1685
+"181 : Printing and service activities related to printing","181","group","2020",1605
+"181 : Printing and service activities related to printing","181","group","2021",1485
+"181 : Printing and service activities related to printing","181","group","2022",1415
+"181 : Printing and service activities related to printing","181","group","2023",1345
+"181 : Printing and service activities related to printing","181","group","2024",1295
+"182 : Reproduction of recorded media","182","group","2019",10
+"182 : Reproduction of recorded media","182","group","2020",10
+"182 : Reproduction of recorded media","182","group","2021",10
+"182 : Reproduction of recorded media","182","group","2022",20
+"182 : Reproduction of recorded media","182","group","2023",15
+"182 : Reproduction of recorded media","182","group","2024",10
+"19 : Manufacture of coke and refined petroleum products","19","division","2019",45
+"19 : Manufacture of coke and refined petroleum products","19","division","2020",40
+"19 : Manufacture of coke and refined petroleum products","19","division","2021",40
+"19 : Manufacture of coke and refined petroleum products","19","division","2022",40
+"19 : Manufacture of coke and refined petroleum products","19","division","2023",45
+"19 : Manufacture of coke and refined petroleum products","19","division","2024",45
+"191 : Manufacture of coke oven products","191","group","2019",0
+"191 : Manufacture of coke oven products","191","group","2020",0
+"191 : Manufacture of coke oven products","191","group","2021",0
+"191 : Manufacture of coke oven products","191","group","2022",0
+"191 : Manufacture of coke oven products","191","group","2023",0
+"191 : Manufacture of coke oven products","191","group","2024",0
+"192 : Manufacture of refined petroleum products","192","group","2019",45
+"192 : Manufacture of refined petroleum products","192","group","2020",40
+"192 : Manufacture of refined petroleum products","192","group","2021",40
+"192 : Manufacture of refined petroleum products","192","group","2022",40
+"192 : Manufacture of refined petroleum products","192","group","2023",45
+"192 : Manufacture of refined petroleum products","192","group","2024",45
+"20 : Manufacture of chemicals and chemical products","20","division","2019",970
+"20 : Manufacture of chemicals and chemical products","20","division","2020",990
+"20 : Manufacture of chemicals and chemical products","20","division","2021",1005
+"20 : Manufacture of chemicals and chemical products","20","division","2022",990
+"20 : Manufacture of chemicals and chemical products","20","division","2023",995
+"20 : Manufacture of chemicals and chemical products","20","division","2024",970
+"201 : Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms","201","group","2019",315
+"201 : Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms","201","group","2020",315
+"201 : Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms","201","group","2021",315
+"201 : Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms","201","group","2022",315
+"201 : Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms","201","group","2023",320
+"201 : Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms","201","group","2024",330
+"202 : Manufacture of pesticides and other agrochemical products","202","group","2019",25
+"202 : Manufacture of pesticides and other agrochemical products","202","group","2020",30
+"202 : Manufacture of pesticides and other agrochemical products","202","group","2021",30
+"202 : Manufacture of pesticides and other agrochemical products","202","group","2022",30
+"202 : Manufacture of pesticides and other agrochemical products","202","group","2023",30
+"202 : Manufacture of pesticides and other agrochemical products","202","group","2024",25
+"203 : Manufacture of paints, varnishes and similar coatings, printing ink and mastics","203","group","2019",150
+"203 : Manufacture of paints, varnishes and similar coatings, printing ink and mastics","203","group","2020",145
+"203 : Manufacture of paints, varnishes and similar coatings, printing ink and mastics","203","group","2021",140
+"203 : Manufacture of paints, varnishes and similar coatings, printing ink and mastics","203","group","2022",140
+"203 : Manufacture of paints, varnishes and similar coatings, printing ink and mastics","203","group","2023",145
+"203 : Manufacture of paints, varnishes and similar coatings, printing ink and mastics","203","group","2024",135
+"204 : Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations","204","group","2019",255
+"204 : Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations","204","group","2020",275
+"204 : Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations","204","group","2021",285
+"204 : Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations","204","group","2022",275
+"204 : Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations","204","group","2023",280
+"204 : Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations","204","group","2024",270
+"205 : Manufacture of other chemical products","205","group","2019",220
+"205 : Manufacture of other chemical products","205","group","2020",220
+"205 : Manufacture of other chemical products","205","group","2021",230
+"205 : Manufacture of other chemical products","205","group","2022",225
+"205 : Manufacture of other chemical products","205","group","2023",215
+"205 : Manufacture of other chemical products","205","group","2024",205
+"206 : Manufacture of man-made fibres","206","group","2019",5
+"206 : Manufacture of man-made fibres","206","group","2020",5
+"206 : Manufacture of man-made fibres","206","group","2021",5
+"206 : Manufacture of man-made fibres","206","group","2022",5
+"206 : Manufacture of man-made fibres","206","group","2023",5
+"206 : Manufacture of man-made fibres","206","group","2024",5
+"21 : Manufacture of basic pharmaceutical products and pharmaceutical preparations","21","division","2019",200
+"21 : Manufacture of basic pharmaceutical products and pharmaceutical preparations","21","division","2020",210
+"21 : Manufacture of basic pharmaceutical products and pharmaceutical preparations","21","division","2021",215
+"21 : Manufacture of basic pharmaceutical products and pharmaceutical preparations","21","division","2022",195
+"21 : Manufacture of basic pharmaceutical products and pharmaceutical preparations","21","division","2023",200
+"21 : Manufacture of basic pharmaceutical products and pharmaceutical preparations","21","division","2024",205
+"211 : Manufacture of basic pharmaceutical products","211","group","2019",50
+"211 : Manufacture of basic pharmaceutical products","211","group","2020",55
+"211 : Manufacture of basic pharmaceutical products","211","group","2021",60
+"211 : Manufacture of basic pharmaceutical products","211","group","2022",55
+"211 : Manufacture of basic pharmaceutical products","211","group","2023",60
+"211 : Manufacture of basic pharmaceutical products","211","group","2024",65
+"212 : Manufacture of pharmaceutical preparations","212","group","2019",150
+"212 : Manufacture of pharmaceutical preparations","212","group","2020",155
+"212 : Manufacture of pharmaceutical preparations","212","group","2021",155
+"212 : Manufacture of pharmaceutical preparations","212","group","2022",140
+"212 : Manufacture of pharmaceutical preparations","212","group","2023",140
+"212 : Manufacture of pharmaceutical preparations","212","group","2024",140
+"22 : Manufacture of rubber and plastic products","22","division","2019",2260
+"22 : Manufacture of rubber and plastic products","22","division","2020",2200
+"22 : Manufacture of rubber and plastic products","22","division","2021",2165
+"22 : Manufacture of rubber and plastic products","22","division","2022",2145
+"22 : Manufacture of rubber and plastic products","22","division","2023",2090
+"22 : Manufacture of rubber and plastic products","22","division","2024",2030
+"221 : Manufacture of rubber products","221","group","2019",255
+"221 : Manufacture of rubber products","221","group","2020",250
+"221 : Manufacture of rubber products","221","group","2021",240
+"221 : Manufacture of rubber products","221","group","2022",235
+"221 : Manufacture of rubber products","221","group","2023",230
+"221 : Manufacture of rubber products","221","group","2024",225
+"222 : Manufacture of plastics products","222","group","2019",2005
+"222 : Manufacture of plastics products","222","group","2020",1950
+"222 : Manufacture of plastics products","222","group","2021",1925
+"222 : Manufacture of plastics products","222","group","2022",1910
+"222 : Manufacture of plastics products","222","group","2023",1860
+"222 : Manufacture of plastics products","222","group","2024",1805
+"23 : Manufacture of other non-metallic mineral products","23","division","2019",1015
+"23 : Manufacture of other non-metallic mineral products","23","division","2020",1015
+"23 : Manufacture of other non-metallic mineral products","23","division","2021",1025
+"23 : Manufacture of other non-metallic mineral products","23","division","2022",1060
+"23 : Manufacture of other non-metallic mineral products","23","division","2023",1060
+"23 : Manufacture of other non-metallic mineral products","23","division","2024",1040
+"231 : Manufacture of glass and glass products","231","group","2019",270
+"231 : Manufacture of glass and glass products","231","group","2020",265
+"231 : Manufacture of glass and glass products","231","group","2021",270
+"231 : Manufacture of glass and glass products","231","group","2022",265
+"231 : Manufacture of glass and glass products","231","group","2023",265
+"231 : Manufacture of glass and glass products","231","group","2024",255
+"232 : Manufacture of refractory products","232","group","2019",40
+"232 : Manufacture of refractory products","232","group","2020",40
+"232 : Manufacture of refractory products","232","group","2021",40
+"232 : Manufacture of refractory products","232","group","2022",40
+"232 : Manufacture of refractory products","232","group","2023",35
+"232 : Manufacture of refractory products","232","group","2024",35
+"233 : Manufacture of clay building materials","233","group","2019",30
+"233 : Manufacture of clay building materials","233","group","2020",30
+"233 : Manufacture of clay building materials","233","group","2021",35
+"233 : Manufacture of clay building materials","233","group","2022",45
+"233 : Manufacture of clay building materials","233","group","2023",45
+"233 : Manufacture of clay building materials","233","group","2024",40
+"234 : Manufacture of other porcelain and ceramic products","234","group","2019",50
+"234 : Manufacture of other porcelain and ceramic products","234","group","2020",50
+"234 : Manufacture of other porcelain and ceramic products","234","group","2021",45
+"234 : Manufacture of other porcelain and ceramic products","234","group","2022",45
+"234 : Manufacture of other porcelain and ceramic products","234","group","2023",55
+"234 : Manufacture of other porcelain and ceramic products","234","group","2024",55
+"235 : Manufacture of cement, lime and plaster","235","group","2019",10
+"235 : Manufacture of cement, lime and plaster","235","group","2020",10
+"235 : Manufacture of cement, lime and plaster","235","group","2021",10
+"235 : Manufacture of cement, lime and plaster","235","group","2022",10
+"235 : Manufacture of cement, lime and plaster","235","group","2023",10
+"235 : Manufacture of cement, lime and plaster","235","group","2024",10
+"236 : Manufacture of articles of concrete, cement and plaster","236","group","2019",320
+"236 : Manufacture of articles of concrete, cement and plaster","236","group","2020",335
+"236 : Manufacture of articles of concrete, cement and plaster","236","group","2021",340
+"236 : Manufacture of articles of concrete, cement and plaster","236","group","2022",355
+"236 : Manufacture of articles of concrete, cement and plaster","236","group","2023",350
+"236 : Manufacture of articles of concrete, cement and plaster","236","group","2024",350
+"237 : Cutting, shaping and finishing of stone","237","group","2019",220
+"237 : Cutting, shaping and finishing of stone","237","group","2020",205
+"237 : Cutting, shaping and finishing of stone","237","group","2021",205
+"237 : Cutting, shaping and finishing of stone","237","group","2022",220
+"237 : Cutting, shaping and finishing of stone","237","group","2023",215
+"237 : Cutting, shaping and finishing of stone","237","group","2024",210
+"239 : Manufacture of abrasive products and non-metallic mineral products n.e.c.","239","group","2019",75
+"239 : Manufacture of abrasive products and non-metallic mineral products n.e.c.","239","group","2020",80
+"239 : Manufacture of abrasive products and non-metallic mineral products n.e.c.","239","group","2021",80
+"239 : Manufacture of abrasive products and non-metallic mineral products n.e.c.","239","group","2022",80
+"239 : Manufacture of abrasive products and non-metallic mineral products n.e.c.","239","group","2023",85
+"239 : Manufacture of abrasive products and non-metallic mineral products n.e.c.","239","group","2024",85
+"24 : Manufacture of basic metals","24","division","2019",585
+"24 : Manufacture of basic metals","24","division","2020",595
+"24 : Manufacture of basic metals","24","division","2021",590
+"24 : Manufacture of basic metals","24","division","2022",580
+"24 : Manufacture of basic metals","24","division","2023",565
+"24 : Manufacture of basic metals","24","division","2024",565
+"241 : Manufacture of basic iron and steel and of ferro-alloys","241","group","2019",165
+"241 : Manufacture of basic iron and steel and of ferro-alloys","241","group","2020",160
+"241 : Manufacture of basic iron and steel and of ferro-alloys","241","group","2021",175
+"241 : Manufacture of basic iron and steel and of ferro-alloys","241","group","2022",170
+"241 : Manufacture of basic iron and steel and of ferro-alloys","241","group","2023",165
+"241 : Manufacture of basic iron and steel and of ferro-alloys","241","group","2024",170
+"242 : Manufacture of tubes, pipes, hollow profiles and related fittings, of steel","242","group","2019",95
+"242 : Manufacture of tubes, pipes, hollow profiles and related fittings, of steel","242","group","2020",105
+"242 : Manufacture of tubes, pipes, hollow profiles and related fittings, of steel","242","group","2021",105
+"242 : Manufacture of tubes, pipes, hollow profiles and related fittings, of steel","242","group","2022",105
+"242 : Manufacture of tubes, pipes, hollow profiles and related fittings, of steel","242","group","2023",100
+"242 : Manufacture of tubes, pipes, hollow profiles and related fittings, of steel","242","group","2024",105
+"243 : Manufacture of other products of first processing of steel","243","group","2019",50
+"243 : Manufacture of other products of first processing of steel","243","group","2020",45
+"243 : Manufacture of other products of first processing of steel","243","group","2021",40
+"243 : Manufacture of other products of first processing of steel","243","group","2022",45
+"243 : Manufacture of other products of first processing of steel","243","group","2023",45
+"243 : Manufacture of other products of first processing of steel","243","group","2024",40
+"244 : Manufacture of basic precious and other non-ferrous metals","244","group","2019",100
+"244 : Manufacture of basic precious and other non-ferrous metals","244","group","2020",105
+"244 : Manufacture of basic precious and other non-ferrous metals","244","group","2021",95
+"244 : Manufacture of basic precious and other non-ferrous metals","244","group","2022",90
+"244 : Manufacture of basic precious and other non-ferrous metals","244","group","2023",95
+"244 : Manufacture of basic precious and other non-ferrous metals","244","group","2024",95
+"245 : Casting of metals","245","group","2019",175
+"245 : Casting of metals","245","group","2020",180
+"245 : Casting of metals","245","group","2021",175
+"245 : Casting of metals","245","group","2022",170
+"245 : Casting of metals","245","group","2023",160
+"245 : Casting of metals","245","group","2024",155
+"25 : Manufacture of fabricated metal products, except machinery and equipment","25","division","2019",6005
+"25 : Manufacture of fabricated metal products, except machinery and equipment","25","division","2020",5900
+"25 : Manufacture of fabricated metal products, except machinery and equipment","25","division","2021",5810
+"25 : Manufacture of fabricated metal products, except machinery and equipment","25","division","2022",5695
+"25 : Manufacture of fabricated metal products, except machinery and equipment","25","division","2023",5575
+"25 : Manufacture of fabricated metal products, except machinery and equipment","25","division","2024",5430
+"251 : Manufacture of structural metal products","251","group","2019",1560
+"251 : Manufacture of structural metal products","251","group","2020",1535
+"251 : Manufacture of structural metal products","251","group","2021",1530
+"251 : Manufacture of structural metal products","251","group","2022",1515
+"251 : Manufacture of structural metal products","251","group","2023",1485
+"251 : Manufacture of structural metal products","251","group","2024",1465
+"252 : Manufacture of tanks, reservoirs and containers of metal","252","group","2019",110
+"252 : Manufacture of tanks, reservoirs and containers of metal","252","group","2020",110
+"252 : Manufacture of tanks, reservoirs and containers of metal","252","group","2021",110
+"252 : Manufacture of tanks, reservoirs and containers of metal","252","group","2022",105
+"252 : Manufacture of tanks, reservoirs and containers of metal","252","group","2023",100
+"252 : Manufacture of tanks, reservoirs and containers of metal","252","group","2024",95
+"253 : Manufacture of steam generators, except central heating hot water boilers","253","group","2019",25
+"253 : Manufacture of steam generators, except central heating hot water boilers","253","group","2020",25
+"253 : Manufacture of steam generators, except central heating hot water boilers","253","group","2021",20
+"253 : Manufacture of steam generators, except central heating hot water boilers","253","group","2022",25
+"253 : Manufacture of steam generators, except central heating hot water boilers","253","group","2023",30
+"253 : Manufacture of steam generators, except central heating hot water boilers","253","group","2024",25
+"254 : Manufacture of weapons and ammunition","254","group","2019",30
+"254 : Manufacture of weapons and ammunition","254","group","2020",35
+"254 : Manufacture of weapons and ammunition","254","group","2021",35
+"254 : Manufacture of weapons and ammunition","254","group","2022",35
+"254 : Manufacture of weapons and ammunition","254","group","2023",35
+"254 : Manufacture of weapons and ammunition","254","group","2024",30
+"255 : Forging, pressing, stamping and roll-forming of metal; powder metallurgy","255","group","2019",235
+"255 : Forging, pressing, stamping and roll-forming of metal; powder metallurgy","255","group","2020",225
+"255 : Forging, pressing, stamping and roll-forming of metal; powder metallurgy","255","group","2021",215
+"255 : Forging, pressing, stamping and roll-forming of metal; powder metallurgy","255","group","2022",210
+"255 : Forging, pressing, stamping and roll-forming of metal; powder metallurgy","255","group","2023",205
+"255 : Forging, pressing, stamping and roll-forming of metal; powder metallurgy","255","group","2024",190
+"256 : Treatment and coating of metals; machining","256","group","2019",2705
+"256 : Treatment and coating of metals; machining","256","group","2020",2645
+"256 : Treatment and coating of metals; machining","256","group","2021",2575
+"256 : Treatment and coating of metals; machining","256","group","2022",2515
+"256 : Treatment and coating of metals; machining","256","group","2023",2435
+"256 : Treatment and coating of metals; machining","256","group","2024",2360
+"257 : Manufacture of cutlery, tools and general hardware","257","group","2019",410
+"257 : Manufacture of cutlery, tools and general hardware","257","group","2020",395
+"257 : Manufacture of cutlery, tools and general hardware","257","group","2021",385
+"257 : Manufacture of cutlery, tools and general hardware","257","group","2022",380
+"257 : Manufacture of cutlery, tools and general hardware","257","group","2023",370
+"257 : Manufacture of cutlery, tools and general hardware","257","group","2024",350
+"259 : Manufacture of other fabricated metal products","259","group","2019",930
+"259 : Manufacture of other fabricated metal products","259","group","2020",930
+"259 : Manufacture of other fabricated metal products","259","group","2021",940
+"259 : Manufacture of other fabricated metal products","259","group","2022",910
+"259 : Manufacture of other fabricated metal products","259","group","2023",915
+"259 : Manufacture of other fabricated metal products","259","group","2024",915
+"26 : Manufacture of computer, electronic and optical products","26","division","2019",1405
+"26 : Manufacture of computer, electronic and optical products","26","division","2020",1415
+"26 : Manufacture of computer, electronic and optical products","26","division","2021",1425
+"26 : Manufacture of computer, electronic and optical products","26","division","2022",1440
+"26 : Manufacture of computer, electronic and optical products","26","division","2023",1435
+"26 : Manufacture of computer, electronic and optical products","26","division","2024",1415
+"261 : Manufacture of electronic components and boards","261","group","2019",305
+"261 : Manufacture of electronic components and boards","261","group","2020",310
+"261 : Manufacture of electronic components and boards","261","group","2021",300
+"261 : Manufacture of electronic components and boards","261","group","2022",300
+"261 : Manufacture of electronic components and boards","261","group","2023",285
+"261 : Manufacture of electronic components and boards","261","group","2024",280
+"262 : Manufacture of computers and peripheral equipment","262","group","2019",90
+"262 : Manufacture of computers and peripheral equipment","262","group","2020",85
+"262 : Manufacture of computers and peripheral equipment","262","group","2021",100
+"262 : Manufacture of computers and peripheral equipment","262","group","2022",100
+"262 : Manufacture of computers and peripheral equipment","262","group","2023",100
+"262 : Manufacture of computers and peripheral equipment","262","group","2024",105
+"263 : Manufacture of communication equipment","263","group","2019",150
+"263 : Manufacture of communication equipment","263","group","2020",145
+"263 : Manufacture of communication equipment","263","group","2021",145
+"263 : Manufacture of communication equipment","263","group","2022",140
+"263 : Manufacture of communication equipment","263","group","2023",140
+"263 : Manufacture of communication equipment","263","group","2024",140
+"264 : Manufacture of consumer electronics","264","group","2019",85
+"264 : Manufacture of consumer electronics","264","group","2020",85
+"264 : Manufacture of consumer electronics","264","group","2021",85
+"264 : Manufacture of consumer electronics","264","group","2022",90
+"264 : Manufacture of consumer electronics","264","group","2023",85
+"264 : Manufacture of consumer electronics","264","group","2024",75
+"265 : Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks","265","group","2019",640
+"265 : Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks","265","group","2020",650
+"265 : Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks","265","group","2021",655
+"265 : Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks","265","group","2022",670
+"265 : Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks","265","group","2023",680
+"265 : Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks","265","group","2024",675
+"266 : Manufacture of irradiation, electromedical and electrotherapeutic equipment","266","group","2019",60
+"266 : Manufacture of irradiation, electromedical and electrotherapeutic equipment","266","group","2020",60
+"266 : Manufacture of irradiation, electromedical and electrotherapeutic equipment","266","group","2021",60
+"266 : Manufacture of irradiation, electromedical and electrotherapeutic equipment","266","group","2022",60
+"266 : Manufacture of irradiation, electromedical and electrotherapeutic equipment","266","group","2023",65
+"266 : Manufacture of irradiation, electromedical and electrotherapeutic equipment","266","group","2024",60
+"267 : Manufacture of optical instruments and photographic equipment","267","group","2019",75
+"267 : Manufacture of optical instruments and photographic equipment","267","group","2020",80
+"267 : Manufacture of optical instruments and photographic equipment","267","group","2021",80
+"267 : Manufacture of optical instruments and photographic equipment","267","group","2022",80
+"267 : Manufacture of optical instruments and photographic equipment","267","group","2023",80
+"267 : Manufacture of optical instruments and photographic equipment","267","group","2024",80
+"268 : Manufacture of magnetic and optical media","268","group","2019",0
+"268 : Manufacture of magnetic and optical media","268","group","2020",0
+"268 : Manufacture of magnetic and optical media","268","group","2021",0
+"268 : Manufacture of magnetic and optical media","268","group","2022",0
+"268 : Manufacture of magnetic and optical media","268","group","2023",0
+"268 : Manufacture of magnetic and optical media","268","group","2024",0
+"27 : Manufacture of electrical equipment","27","division","2019",1060
+"27 : Manufacture of electrical equipment","27","division","2020",1070
+"27 : Manufacture of electrical equipment","27","division","2021",1070
+"27 : Manufacture of electrical equipment","27","division","2022",1055
+"27 : Manufacture of electrical equipment","27","division","2023",1050
+"27 : Manufacture of electrical equipment","27","division","2024",1035
+"271 : Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus","271","group","2019",375
+"271 : Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus","271","group","2020",375
+"271 : Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus","271","group","2021",380
+"271 : Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus","271","group","2022",380
+"271 : Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus","271","group","2023",385
+"271 : Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus","271","group","2024",380
+"272 : Manufacture of batteries and accumulators","272","group","2019",30
+"272 : Manufacture of batteries and accumulators","272","group","2020",30
+"272 : Manufacture of batteries and accumulators","272","group","2021",30
+"272 : Manufacture of batteries and accumulators","272","group","2022",30
+"272 : Manufacture of batteries and accumulators","272","group","2023",40
+"272 : Manufacture of batteries and accumulators","272","group","2024",40
+"273 : Manufacture of wiring and wiring devices","273","group","2019",145
+"273 : Manufacture of wiring and wiring devices","273","group","2020",155
+"273 : Manufacture of wiring and wiring devices","273","group","2021",155
+"273 : Manufacture of wiring and wiring devices","273","group","2022",150
+"273 : Manufacture of wiring and wiring devices","273","group","2023",145
+"273 : Manufacture of wiring and wiring devices","273","group","2024",145
+"274 : Manufacture of electric lighting equipment","274","group","2019",210
+"274 : Manufacture of electric lighting equipment","274","group","2020",220
+"274 : Manufacture of electric lighting equipment","274","group","2021",220
+"274 : Manufacture of electric lighting equipment","274","group","2022",215
+"274 : Manufacture of electric lighting equipment","274","group","2023",210
+"274 : Manufacture of electric lighting equipment","274","group","2024",205
+"275 : Manufacture of domestic appliances","275","group","2019",100
+"275 : Manufacture of domestic appliances","275","group","2020",90
+"275 : Manufacture of domestic appliances","275","group","2021",90
+"275 : Manufacture of domestic appliances","275","group","2022",90
+"275 : Manufacture of domestic appliances","275","group","2023",90
+"275 : Manufacture of domestic appliances","275","group","2024",85
+"279 : Manufacture of other electrical equipment","279","group","2019",200
+"279 : Manufacture of other electrical equipment","279","group","2020",200
+"279 : Manufacture of other electrical equipment","279","group","2021",195
+"279 : Manufacture of other electrical equipment","279","group","2022",190
+"279 : Manufacture of other electrical equipment","279","group","2023",180
+"279 : Manufacture of other electrical equipment","279","group","2024",180
+"28 : Manufacture of machinery and equipment n.e.c.","28","division","2019",2220
+"28 : Manufacture of machinery and equipment n.e.c.","28","division","2020",2175
+"28 : Manufacture of machinery and equipment n.e.c.","28","division","2021",2170
+"28 : Manufacture of machinery and equipment n.e.c.","28","division","2022",2165
+"28 : Manufacture of machinery and equipment n.e.c.","28","division","2023",2110
+"28 : Manufacture of machinery and equipment n.e.c.","28","division","2024",2110
+"281 : Manufacture of general-purpose machinery","281","group","2019",435
+"281 : Manufacture of general-purpose machinery","281","group","2020",425
+"281 : Manufacture of general-purpose machinery","281","group","2021",430
+"281 : Manufacture of general-purpose machinery","281","group","2022",430
+"281 : Manufacture of general-purpose machinery","281","group","2023",425
+"281 : Manufacture of general-purpose machinery","281","group","2024",420
+"282 : Manufacture of other general-purpose machinery","282","group","2019",1020
+"282 : Manufacture of other general-purpose machinery","282","group","2020",990
+"282 : Manufacture of other general-purpose machinery","282","group","2021",970
+"282 : Manufacture of other general-purpose machinery","282","group","2022",970
+"282 : Manufacture of other general-purpose machinery","282","group","2023",955
+"282 : Manufacture of other general-purpose machinery","282","group","2024",950
+"283 : Manufacture of agricultural and forestry machinery","283","group","2019",105
+"283 : Manufacture of agricultural and forestry machinery","283","group","2020",110
+"283 : Manufacture of agricultural and forestry machinery","283","group","2021",110
+"283 : Manufacture of agricultural and forestry machinery","283","group","2022",115
+"283 : Manufacture of agricultural and forestry machinery","283","group","2023",115
+"283 : Manufacture of agricultural and forestry machinery","283","group","2024",115
+"284 : Manufacture of metal forming machinery and machine tools","284","group","2019",175
+"284 : Manufacture of metal forming machinery and machine tools","284","group","2020",170
+"284 : Manufacture of metal forming machinery and machine tools","284","group","2021",165
+"284 : Manufacture of metal forming machinery and machine tools","284","group","2022",150
+"284 : Manufacture of metal forming machinery and machine tools","284","group","2023",140
+"284 : Manufacture of metal forming machinery and machine tools","284","group","2024",140
+"289 : Manufacture of other special-purpose machinery","289","group","2019",485
+"289 : Manufacture of other special-purpose machinery","289","group","2020",480
+"289 : Manufacture of other special-purpose machinery","289","group","2021",495
+"289 : Manufacture of other special-purpose machinery","289","group","2022",500
+"289 : Manufacture of other special-purpose machinery","289","group","2023",475
+"289 : Manufacture of other special-purpose machinery","289","group","2024",485
+"29 : Manufacture of motor vehicles, trailers and semi-trailers","29","division","2019",775
+"29 : Manufacture of motor vehicles, trailers and semi-trailers","29","division","2020",770
+"29 : Manufacture of motor vehicles, trailers and semi-trailers","29","division","2021",785
+"29 : Manufacture of motor vehicles, trailers and semi-trailers","29","division","2022",795
+"29 : Manufacture of motor vehicles, trailers and semi-trailers","29","division","2023",780
+"29 : Manufacture of motor vehicles, trailers and semi-trailers","29","division","2024",765
+"291 : Manufacture of motor vehicles","291","group","2019",115
+"291 : Manufacture of motor vehicles","291","group","2020",110
+"291 : Manufacture of motor vehicles","291","group","2021",110
+"291 : Manufacture of motor vehicles","291","group","2022",115
+"291 : Manufacture of motor vehicles","291","group","2023",110
+"291 : Manufacture of motor vehicles","291","group","2024",110
+"292 : Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers","292","group","2019",240
+"292 : Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers","292","group","2020",245
+"292 : Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers","292","group","2021",255
+"292 : Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers","292","group","2022",265
+"292 : Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers","292","group","2023",265
+"292 : Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers","292","group","2024",260
+"293 : Manufacture of parts and accessories for motor vehicles","293","group","2019",420
+"293 : Manufacture of parts and accessories for motor vehicles","293","group","2020",415
+"293 : Manufacture of parts and accessories for motor vehicles","293","group","2021",420
+"293 : Manufacture of parts and accessories for motor vehicles","293","group","2022",415
+"293 : Manufacture of parts and accessories for motor vehicles","293","group","2023",405
+"293 : Manufacture of parts and accessories for motor vehicles","293","group","2024",395
+"30 : Manufacture of other transport equipment","30","division","2019",350
+"30 : Manufacture of other transport equipment","30","division","2020",350
+"30 : Manufacture of other transport equipment","30","division","2021",370
+"30 : Manufacture of other transport equipment","30","division","2022",375
+"30 : Manufacture of other transport equipment","30","division","2023",360
+"30 : Manufacture of other transport equipment","30","division","2024",360
+"301 : Building of ships and boats","301","group","2019",115
+"301 : Building of ships and boats","301","group","2020",100
+"301 : Building of ships and boats","301","group","2021",110
+"301 : Building of ships and boats","301","group","2022",105
+"301 : Building of ships and boats","301","group","2023",100
+"301 : Building of ships and boats","301","group","2024",100
+"302 : Manufacture of railway locomotives and rolling stock","302","group","2019",20
+"302 : Manufacture of railway locomotives and rolling stock","302","group","2020",25
+"302 : Manufacture of railway locomotives and rolling stock","302","group","2021",25
+"302 : Manufacture of railway locomotives and rolling stock","302","group","2022",25
+"302 : Manufacture of railway locomotives and rolling stock","302","group","2023",20
+"302 : Manufacture of railway locomotives and rolling stock","302","group","2024",20
+"303 : Manufacture of air and spacecraft and related machinery","303","group","2019",145
+"303 : Manufacture of air and spacecraft and related machinery","303","group","2020",155
+"303 : Manufacture of air and spacecraft and related machinery","303","group","2021",160
+"303 : Manufacture of air and spacecraft and related machinery","303","group","2022",165
+"303 : Manufacture of air and spacecraft and related machinery","303","group","2023",170
+"303 : Manufacture of air and spacecraft and related machinery","303","group","2024",170
+"304 : Manufacture of military fighting vehicles","304","group","2019",5
+"304 : Manufacture of military fighting vehicles","304","group","2020",5
+"304 : Manufacture of military fighting vehicles","304","group","2021",5
+"304 : Manufacture of military fighting vehicles","304","group","2022",5
+"304 : Manufacture of military fighting vehicles","304","group","2023",5
+"304 : Manufacture of military fighting vehicles","304","group","2024",5
+"309 : Manufacture of transport equipment n.e.c.","309","group","2019",65
+"309 : Manufacture of transport equipment n.e.c.","309","group","2020",65
+"309 : Manufacture of transport equipment n.e.c.","309","group","2021",70
+"309 : Manufacture of transport equipment n.e.c.","309","group","2022",75
+"309 : Manufacture of transport equipment n.e.c.","309","group","2023",65
+"309 : Manufacture of transport equipment n.e.c.","309","group","2024",65
+"31 : Manufacture of furniture","31","division","2019",1425
+"31 : Manufacture of furniture","31","division","2020",1400
+"31 : Manufacture of furniture","31","division","2021",1410
+"31 : Manufacture of furniture","31","division","2022",1375
+"31 : Manufacture of furniture","31","division","2023",1345
+"31 : Manufacture of furniture","31","division","2024",1300
+"310 : Manufacture of furniture","310","group","2019",1425
+"310 : Manufacture of furniture","310","group","2020",1400
+"310 : Manufacture of furniture","310","group","2021",1410
+"310 : Manufacture of furniture","310","group","2022",1375
+"310 : Manufacture of furniture","310","group","2023",1345
+"310 : Manufacture of furniture","310","group","2024",1300
+"32 : Other manufacturing","32","division","2019",1200
+"32 : Other manufacturing","32","division","2020",1205
+"32 : Other manufacturing","32","division","2021",1200
+"32 : Other manufacturing","32","division","2022",1220
+"32 : Other manufacturing","32","division","2023",1205
+"32 : Other manufacturing","32","division","2024",1195
+"321 : Manufacture of jewellery, bijouterie and related articles","321","group","2019",105
+"321 : Manufacture of jewellery, bijouterie and related articles","321","group","2020",100
+"321 : Manufacture of jewellery, bijouterie and related articles","321","group","2021",100
+"321 : Manufacture of jewellery, bijouterie and related articles","321","group","2022",100
+"321 : Manufacture of jewellery, bijouterie and related articles","321","group","2023",105
+"321 : Manufacture of jewellery, bijouterie and related articles","321","group","2024",100
+"322 : Manufacture of musical instruments","322","group","2019",25
+"322 : Manufacture of musical instruments","322","group","2020",20
+"322 : Manufacture of musical instruments","322","group","2021",25
+"322 : Manufacture of musical instruments","322","group","2022",25
+"322 : Manufacture of musical instruments","322","group","2023",25
+"322 : Manufacture of musical instruments","322","group","2024",20
+"323 : Manufacture of sports goods","323","group","2019",115
+"323 : Manufacture of sports goods","323","group","2020",120
+"323 : Manufacture of sports goods","323","group","2021",120
+"323 : Manufacture of sports goods","323","group","2022",130
+"323 : Manufacture of sports goods","323","group","2023",120
+"323 : Manufacture of sports goods","323","group","2024",115
+"324 : Manufacture of games and toys","324","group","2019",60
+"324 : Manufacture of games and toys","324","group","2020",55
+"324 : Manufacture of games and toys","324","group","2021",55
+"324 : Manufacture of games and toys","324","group","2022",60
+"324 : Manufacture of games and toys","324","group","2023",60
+"324 : Manufacture of games and toys","324","group","2024",60
+"325 : Manufacture of medical and dental instruments and supplies","325","group","2019",525
+"325 : Manufacture of medical and dental instruments and supplies","325","group","2020",520
+"325 : Manufacture of medical and dental instruments and supplies","325","group","2021",525
+"325 : Manufacture of medical and dental instruments and supplies","325","group","2022",520
+"325 : Manufacture of medical and dental instruments and supplies","325","group","2023",500
+"325 : Manufacture of medical and dental instruments and supplies","325","group","2024",505
+"329 : Other manufacturing n.e.c.","329","group","2019",370
+"329 : Other manufacturing n.e.c.","329","group","2020",390
+"329 : Other manufacturing n.e.c.","329","group","2021",375
+"329 : Other manufacturing n.e.c.","329","group","2022",385
+"329 : Other manufacturing n.e.c.","329","group","2023",395
+"329 : Other manufacturing n.e.c.","329","group","2024",395
+"33 : Repair and installation of machinery and equipment","33","division","2019",1370
+"33 : Repair and installation of machinery and equipment","33","division","2020",1385
+"33 : Repair and installation of machinery and equipment","33","division","2021",1400
+"33 : Repair and installation of machinery and equipment","33","division","2022",1460
+"33 : Repair and installation of machinery and equipment","33","division","2023",1460
+"33 : Repair and installation of machinery and equipment","33","division","2024",1485
+"331 : Repair of fabricated metal products, machinery and equipment","331","group","2019",1075
+"331 : Repair of fabricated metal products, machinery and equipment","331","group","2020",1095
+"331 : Repair of fabricated metal products, machinery and equipment","331","group","2021",1105
+"331 : Repair of fabricated metal products, machinery and equipment","331","group","2022",1140
+"331 : Repair of fabricated metal products, machinery and equipment","331","group","2023",1140
+"331 : Repair of fabricated metal products, machinery and equipment","331","group","2024",1180
+"332 : Installation of industrial machinery and equipment","332","group","2019",295
+"332 : Installation of industrial machinery and equipment","332","group","2020",290
+"332 : Installation of industrial machinery and equipment","332","group","2021",295
+"332 : Installation of industrial machinery and equipment","332","group","2022",320
+"332 : Installation of industrial machinery and equipment","332","group","2023",320
+"332 : Installation of industrial machinery and equipment","332","group","2024",305
+"35 : Electricity, gas, steam and air conditioning supply","35","division","2019",555
+"35 : Electricity, gas, steam and air conditioning supply","35","division","2020",535
+"35 : Electricity, gas, steam and air conditioning supply","35","division","2021",575
+"35 : Electricity, gas, steam and air conditioning supply","35","division","2022",475
+"35 : Electricity, gas, steam and air conditioning supply","35","division","2023",465
+"35 : Electricity, gas, steam and air conditioning supply","35","division","2024",465
+"351 : Electric power generation, transmission and distribution","351","group","2019",520
+"351 : Electric power generation, transmission and distribution","351","group","2020",495
+"351 : Electric power generation, transmission and distribution","351","group","2021",535
+"351 : Electric power generation, transmission and distribution","351","group","2022",440
+"351 : Electric power generation, transmission and distribution","351","group","2023",430
+"351 : Electric power generation, transmission and distribution","351","group","2024",430
+"352 : Manufacture of gas; distribution of gaseous fuels through mains","352","group","2019",30
+"352 : Manufacture of gas; distribution of gaseous fuels through mains","352","group","2020",35
+"352 : Manufacture of gas; distribution of gaseous fuels through mains","352","group","2021",35
+"352 : Manufacture of gas; distribution of gaseous fuels through mains","352","group","2022",30
+"352 : Manufacture of gas; distribution of gaseous fuels through mains","352","group","2023",30
+"352 : Manufacture of gas; distribution of gaseous fuels through mains","352","group","2024",30
+"353 : Steam and air conditioning supply","353","group","2019",5
+"353 : Steam and air conditioning supply","353","group","2020",5
+"353 : Steam and air conditioning supply","353","group","2021",5
+"353 : Steam and air conditioning supply","353","group","2022",5
+"353 : Steam and air conditioning supply","353","group","2023",5
+"353 : Steam and air conditioning supply","353","group","2024",5
+"36 : Water collection, treatment and supply","36","division","2019",50
+"36 : Water collection, treatment and supply","36","division","2020",50
+"36 : Water collection, treatment and supply","36","division","2021",55
+"36 : Water collection, treatment and supply","36","division","2022",50
+"36 : Water collection, treatment and supply","36","division","2023",50
+"36 : Water collection, treatment and supply","36","division","2024",55
+"360 : Water collection, treatment and supply","360","group","2019",50
+"360 : Water collection, treatment and supply","360","group","2020",50
+"360 : Water collection, treatment and supply","360","group","2021",55
+"360 : Water collection, treatment and supply","360","group","2022",50
+"360 : Water collection, treatment and supply","360","group","2023",50
+"360 : Water collection, treatment and supply","360","group","2024",55
+"37 : Sewerage","37","division","2019",195
+"37 : Sewerage","37","division","2020",190
+"37 : Sewerage","37","division","2021",195
+"37 : Sewerage","37","division","2022",205
+"37 : Sewerage","37","division","2023",205
+"37 : Sewerage","37","division","2024",210
+"370 : Sewerage","370","group","2019",195
+"370 : Sewerage","370","group","2020",190
+"370 : Sewerage","370","group","2021",195
+"370 : Sewerage","370","group","2022",205
+"370 : Sewerage","370","group","2023",205
+"370 : Sewerage","370","group","2024",210
+"38 : Waste collection, treatment and disposal activities; materials recovery","38","division","2019",1390
+"38 : Waste collection, treatment and disposal activities; materials recovery","38","division","2020",1375
+"38 : Waste collection, treatment and disposal activities; materials recovery","38","division","2021",1395
+"38 : Waste collection, treatment and disposal activities; materials recovery","38","division","2022",1440
+"38 : Waste collection, treatment and disposal activities; materials recovery","38","division","2023",1440
+"38 : Waste collection, treatment and disposal activities; materials recovery","38","division","2024",1425
+"381 : Waste collection","381","group","2019",615
+"381 : Waste collection","381","group","2020",615
+"381 : Waste collection","381","group","2021",630
+"381 : Waste collection","381","group","2022",655
+"381 : Waste collection","381","group","2023",660
+"381 : Waste collection","381","group","2024",650
+"382 : Waste treatment and disposal","382","group","2019",320
+"382 : Waste treatment and disposal","382","group","2020",315
+"382 : Waste treatment and disposal","382","group","2021",320
+"382 : Waste treatment and disposal","382","group","2022",335
+"382 : Waste treatment and disposal","382","group","2023",340
+"382 : Waste treatment and disposal","382","group","2024",340
+"383 : Materials recovery","383","group","2019",455
+"383 : Materials recovery","383","group","2020",445
+"383 : Materials recovery","383","group","2021",445
+"383 : Materials recovery","383","group","2022",450
+"383 : Materials recovery","383","group","2023",440
+"383 : Materials recovery","383","group","2024",435
+"39 : Remediation activities and other waste management services.","39","division","2019",170
+"39 : Remediation activities and other waste management services.","39","division","2020",190
+"39 : Remediation activities and other waste management services.","39","division","2021",195
+"39 : Remediation activities and other waste management services.","39","division","2022",220
+"39 : Remediation activities and other waste management services.","39","division","2023",220
+"39 : Remediation activities and other waste management services.","39","division","2024",215
+"390 : Remediation activities and other waste management services","390","group","2019",170
+"390 : Remediation activities and other waste management services","390","group","2020",190
+"390 : Remediation activities and other waste management services","390","group","2021",195
+"390 : Remediation activities and other waste management services","390","group","2022",220
+"390 : Remediation activities and other waste management services","390","group","2023",220
+"390 : Remediation activities and other waste management services","390","group","2024",215
+"41 : Construction of buildings","41","division","2019",5230
+"41 : Construction of buildings","41","division","2020",5140
+"41 : Construction of buildings","41","division","2021",5455
+"41 : Construction of buildings","41","division","2022",5715
+"41 : Construction of buildings","41","division","2023",5625
+"41 : Construction of buildings","41","division","2024",5385
+"411 : Development of building projects","411","group","2019",1645
+"411 : Development of building projects","411","group","2020",1545
+"411 : Development of building projects","411","group","2021",1705
+"411 : Development of building projects","411","group","2022",1890
+"411 : Development of building projects","411","group","2023",1775
+"411 : Development of building projects","411","group","2024",1570
+"412 : Construction of residential and non-residential buildings","412","group","2019",3585
+"412 : Construction of residential and non-residential buildings","412","group","2020",3595
+"412 : Construction of residential and non-residential buildings","412","group","2021",3750
+"412 : Construction of residential and non-residential buildings","412","group","2022",3825
+"412 : Construction of residential and non-residential buildings","412","group","2023",3850
+"412 : Construction of residential and non-residential buildings","412","group","2024",3815
+"42 : Civil engineering","42","division","2019",2170
+"42 : Civil engineering","42","division","2020",2100
+"42 : Civil engineering","42","division","2021",2140
+"42 : Civil engineering","42","division","2022",2160
+"42 : Civil engineering","42","division","2023",2150
+"42 : Civil engineering","42","division","2024",2130
+"421 : Construction of roads and railways","421","group","2019",555
+"421 : Construction of roads and railways","421","group","2020",540
+"421 : Construction of roads and railways","421","group","2021",565
+"421 : Construction of roads and railways","421","group","2022",585
+"421 : Construction of roads and railways","421","group","2023",585
+"421 : Construction of roads and railways","421","group","2024",575
+"422 : Construction of utility projects","422","group","2019",150
+"422 : Construction of utility projects","422","group","2020",155
+"422 : Construction of utility projects","422","group","2021",175
+"422 : Construction of utility projects","422","group","2022",185
+"422 : Construction of utility projects","422","group","2023",215
+"422 : Construction of utility projects","422","group","2024",220
+"429 : Construction of other civil engineering projects","429","group","2019",1465
+"429 : Construction of other civil engineering projects","429","group","2020",1405
+"429 : Construction of other civil engineering projects","429","group","2021",1400
+"429 : Construction of other civil engineering projects","429","group","2022",1390
+"429 : Construction of other civil engineering projects","429","group","2023",1350
+"429 : Construction of other civil engineering projects","429","group","2024",1335
+"43 : Specialised construction activities","43","division","2019",12805
+"43 : Specialised construction activities","43","division","2020",12640
+"43 : Specialised construction activities","43","division","2021",13160
+"43 : Specialised construction activities","43","division","2022",13600
+"43 : Specialised construction activities","43","division","2023",13445
+"43 : Specialised construction activities","43","division","2024",13355
+"431 : Demolition and site preparation","431","group","2019",440
+"431 : Demolition and site preparation","431","group","2020",435
+"431 : Demolition and site preparation","431","group","2021",465
+"431 : Demolition and site preparation","431","group","2022",455
+"431 : Demolition and site preparation","431","group","2023",430
+"431 : Demolition and site preparation","431","group","2024",425
+"432 : Electrical, plumbing and other construction installation activities","432","group","2019",6180
+"432 : Electrical, plumbing and other construction installation activities","432","group","2020",6170
+"432 : Electrical, plumbing and other construction installation activities","432","group","2021",6335
+"432 : Electrical, plumbing and other construction installation activities","432","group","2022",6610
+"432 : Electrical, plumbing and other construction installation activities","432","group","2023",6680
+"432 : Electrical, plumbing and other construction installation activities","432","group","2024",6820
+"433 : Building completion and finishing","433","group","2019",3610
+"433 : Building completion and finishing","433","group","2020",3495
+"433 : Building completion and finishing","433","group","2021",3765
+"433 : Building completion and finishing","433","group","2022",3915
+"433 : Building completion and finishing","433","group","2023",3640
+"433 : Building completion and finishing","433","group","2024",3425
+"439 : Other specialised construction activities","439","group","2019",2575
+"439 : Other specialised construction activities","439","group","2020",2540
+"439 : Other specialised construction activities","439","group","2021",2595
+"439 : Other specialised construction activities","439","group","2022",2620
+"439 : Other specialised construction activities","439","group","2023",2695
+"439 : Other specialised construction activities","439","group","2024",2685
+"45 : Wholesale and retail trade and repair of motor vehicles and motorcycles","45","division","2019",6530
+"45 : Wholesale and retail trade and repair of motor vehicles and motorcycles","45","division","2020",6400
+"45 : Wholesale and retail trade and repair of motor vehicles and motorcycles","45","division","2021",6485
+"45 : Wholesale and retail trade and repair of motor vehicles and motorcycles","45","division","2022",6450
+"45 : Wholesale and retail trade and repair of motor vehicles and motorcycles","45","division","2023",6465
+"45 : Wholesale and retail trade and repair of motor vehicles and motorcycles","45","division","2024",6570
+"451 : Sale of motor vehicles","451","group","2019",1920
+"451 : Sale of motor vehicles","451","group","2020",1870
+"451 : Sale of motor vehicles","451","group","2021",1895
+"451 : Sale of motor vehicles","451","group","2022",1890
+"451 : Sale of motor vehicles","451","group","2023",1845
+"451 : Sale of motor vehicles","451","group","2024",1825
+"452 : Maintenance and repair of motor vehicles","452","group","2019",3170
+"452 : Maintenance and repair of motor vehicles","452","group","2020",3140
+"452 : Maintenance and repair of motor vehicles","452","group","2021",3165
+"452 : Maintenance and repair of motor vehicles","452","group","2022",3140
+"452 : Maintenance and repair of motor vehicles","452","group","2023",3215
+"452 : Maintenance and repair of motor vehicles","452","group","2024",3350
+"453 : Sale of motor vehicle parts and accessories","453","group","2019",1245
+"453 : Sale of motor vehicle parts and accessories","453","group","2020",1195
+"453 : Sale of motor vehicle parts and accessories","453","group","2021",1230
+"453 : Sale of motor vehicle parts and accessories","453","group","2022",1230
+"453 : Sale of motor vehicle parts and accessories","453","group","2023",1220
+"453 : Sale of motor vehicle parts and accessories","453","group","2024",1215
+"454 : Sale, maintenance and repair of motorcycles and related parts and accessories","454","group","2019",195
+"454 : Sale, maintenance and repair of motorcycles and related parts and accessories","454","group","2020",195
+"454 : Sale, maintenance and repair of motorcycles and related parts and accessories","454","group","2021",195
+"454 : Sale, maintenance and repair of motorcycles and related parts and accessories","454","group","2022",190
+"454 : Sale, maintenance and repair of motorcycles and related parts and accessories","454","group","2023",185
+"454 : Sale, maintenance and repair of motorcycles and related parts and accessories","454","group","2024",180
+"46 : Wholesale trade, except of motor vehicles and motorcycles","46","division","2019",18490
+"46 : Wholesale trade, except of motor vehicles and motorcycles","46","division","2020",18125
+"46 : Wholesale trade, except of motor vehicles and motorcycles","46","division","2021",18015
+"46 : Wholesale trade, except of motor vehicles and motorcycles","46","division","2022",18120
+"46 : Wholesale trade, except of motor vehicles and motorcycles","46","division","2023",17985
+"46 : Wholesale trade, except of motor vehicles and motorcycles","46","division","2024",17965
+"461 : Wholesale on a fee or contract basis","461","group","2019",1185
+"461 : Wholesale on a fee or contract basis","461","group","2020",1160
+"461 : Wholesale on a fee or contract basis","461","group","2021",1185
+"461 : Wholesale on a fee or contract basis","461","group","2022",1225
+"461 : Wholesale on a fee or contract basis","461","group","2023",1215
+"461 : Wholesale on a fee or contract basis","461","group","2024",1195
+"462 : Wholesale of agricultural raw materials and live animals","462","group","2019",380
+"462 : Wholesale of agricultural raw materials and live animals","462","group","2020",375
+"462 : Wholesale of agricultural raw materials and live animals","462","group","2021",370
+"462 : Wholesale of agricultural raw materials and live animals","462","group","2022",370
+"462 : Wholesale of agricultural raw materials and live animals","462","group","2023",380
+"462 : Wholesale of agricultural raw materials and live animals","462","group","2024",365
+"463 : Wholesale of food, beverages and tobacco","463","group","2019",3125
+"463 : Wholesale of food, beverages and tobacco","463","group","2020",3085
+"463 : Wholesale of food, beverages and tobacco","463","group","2021",3070
+"463 : Wholesale of food, beverages and tobacco","463","group","2022",3105
+"463 : Wholesale of food, beverages and tobacco","463","group","2023",3065
+"463 : Wholesale of food, beverages and tobacco","463","group","2024",3090
+"464 : Wholesale of household goods","464","group","2019",4105
+"464 : Wholesale of household goods","464","group","2020",4005
+"464 : Wholesale of household goods","464","group","2021",3990
+"464 : Wholesale of household goods","464","group","2022",4025
+"464 : Wholesale of household goods","464","group","2023",4005
+"464 : Wholesale of household goods","464","group","2024",3985
+"465 : Wholesale of information and communication equipment","465","group","2019",1105
+"465 : Wholesale of information and communication equipment","465","group","2020",1070
+"465 : Wholesale of information and communication equipment","465","group","2021",1055
+"465 : Wholesale of information and communication equipment","465","group","2022",1050
+"465 : Wholesale of information and communication equipment","465","group","2023",1055
+"465 : Wholesale of information and communication equipment","465","group","2024",1025
+"466 : Wholesale of other machinery, equipment and supplies","466","group","2019",3025
+"466 : Wholesale of other machinery, equipment and supplies","466","group","2020",2975
+"466 : Wholesale of other machinery, equipment and supplies","466","group","2021",2945
+"466 : Wholesale of other machinery, equipment and supplies","466","group","2022",2910
+"466 : Wholesale of other machinery, equipment and supplies","466","group","2023",2865
+"466 : Wholesale of other machinery, equipment and supplies","466","group","2024",2840
+"467 : Other specialised wholesale","467","group","2019",4000
+"467 : Other specialised wholesale","467","group","2020",3905
+"467 : Other specialised wholesale","467","group","2021",3895
+"467 : Other specialised wholesale","467","group","2022",3920
+"467 : Other specialised wholesale","467","group","2023",3845
+"467 : Other specialised wholesale","467","group","2024",3860
+"469 : Non-specialised wholesale trade","469","group","2019",1565
+"469 : Non-specialised wholesale trade","469","group","2020",1550
+"469 : Non-specialised wholesale trade","469","group","2021",1505
+"469 : Non-specialised wholesale trade","469","group","2022",1515
+"469 : Non-specialised wholesale trade","469","group","2023",1555
+"469 : Non-specialised wholesale trade","469","group","2024",1605
+"47 : Retail trade, except of motor vehicles and motorcycles","47","division","2019",19490
+"47 : Retail trade, except of motor vehicles and motorcycles","47","division","2020",19365
+"47 : Retail trade, except of motor vehicles and motorcycles","47","division","2021",20030
+"47 : Retail trade, except of motor vehicles and motorcycles","47","division","2022",20535
+"47 : Retail trade, except of motor vehicles and motorcycles","47","division","2023",20460
+"47 : Retail trade, except of motor vehicles and motorcycles","47","division","2024",20585
+"471 : Retail sale in non-specialised stores","471","group","2019",3395
+"471 : Retail sale in non-specialised stores","471","group","2020",3395
+"471 : Retail sale in non-specialised stores","471","group","2021",3560
+"471 : Retail sale in non-specialised stores","471","group","2022",3645
+"471 : Retail sale in non-specialised stores","471","group","2023",3630
+"471 : Retail sale in non-specialised stores","471","group","2024",3790
+"472 : Retail sale of food, beverages and tobacco in specialised stores","472","group","2019",2745
+"472 : Retail sale of food, beverages and tobacco in specialised stores","472","group","2020",2675
+"472 : Retail sale of food, beverages and tobacco in specialised stores","472","group","2021",2780
+"472 : Retail sale of food, beverages and tobacco in specialised stores","472","group","2022",2895
+"472 : Retail sale of food, beverages and tobacco in specialised stores","472","group","2023",2870
+"472 : Retail sale of food, beverages and tobacco in specialised stores","472","group","2024",2965
+"473 : Retail sale of automotive fuel in specialised stores","473","group","2019",790
+"473 : Retail sale of automotive fuel in specialised stores","473","group","2020",770
+"473 : Retail sale of automotive fuel in specialised stores","473","group","2021",790
+"473 : Retail sale of automotive fuel in specialised stores","473","group","2022",780
+"473 : Retail sale of automotive fuel in specialised stores","473","group","2023",770
+"473 : Retail sale of automotive fuel in specialised stores","473","group","2024",770
+"474 : Retail sale of information and communication equipment in specialised stores","474","group","2019",250
+"474 : Retail sale of information and communication equipment in specialised stores","474","group","2020",265
+"474 : Retail sale of information and communication equipment in specialised stores","474","group","2021",300
+"474 : Retail sale of information and communication equipment in specialised stores","474","group","2022",290
+"474 : Retail sale of information and communication equipment in specialised stores","474","group","2023",270
+"474 : Retail sale of information and communication equipment in specialised stores","474","group","2024",240
+"475 : Retail sale of other household equipment in specialised stores","475","group","2019",2430
+"475 : Retail sale of other household equipment in specialised stores","475","group","2020",2370
+"475 : Retail sale of other household equipment in specialised stores","475","group","2021",2415
+"475 : Retail sale of other household equipment in specialised stores","475","group","2022",2360
+"475 : Retail sale of other household equipment in specialised stores","475","group","2023",2270
+"475 : Retail sale of other household equipment in specialised stores","475","group","2024",2165
+"476 : Retail sale of cultural and recreation goods in specialised stores","476","group","2019",840
+"476 : Retail sale of cultural and recreation goods in specialised stores","476","group","2020",840
+"476 : Retail sale of cultural and recreation goods in specialised stores","476","group","2021",850
+"476 : Retail sale of cultural and recreation goods in specialised stores","476","group","2022",845
+"476 : Retail sale of cultural and recreation goods in specialised stores","476","group","2023",830
+"476 : Retail sale of cultural and recreation goods in specialised stores","476","group","2024",795
+"477 : Retail sale of other goods in specialised stores","477","group","2019",7335
+"477 : Retail sale of other goods in specialised stores","477","group","2020",7260
+"477 : Retail sale of other goods in specialised stores","477","group","2021",7290
+"477 : Retail sale of other goods in specialised stores","477","group","2022",7465
+"477 : Retail sale of other goods in specialised stores","477","group","2023",7610
+"477 : Retail sale of other goods in specialised stores","477","group","2024",7735
+"478 : Retail sale via stalls and markets","478","group","2019",85
+"478 : Retail sale via stalls and markets","478","group","2020",90
+"478 : Retail sale via stalls and markets","478","group","2021",100
+"478 : Retail sale via stalls and markets","478","group","2022",100
+"478 : Retail sale via stalls and markets","478","group","2023",115
+"478 : Retail sale via stalls and markets","478","group","2024",105
+"479 : Retail trade not in stores, stalls or markets","479","group","2019",1620
+"479 : Retail trade not in stores, stalls or markets","479","group","2020",1700
+"479 : Retail trade not in stores, stalls or markets","479","group","2021",1945
+"479 : Retail trade not in stores, stalls or markets","479","group","2022",2155
+"479 : Retail trade not in stores, stalls or markets","479","group","2023",2095
+"479 : Retail trade not in stores, stalls or markets","479","group","2024",2020
+"49 : Land transport and transport via pipelines","49","division","2019",6535
+"49 : Land transport and transport via pipelines","49","division","2020",6505
+"49 : Land transport and transport via pipelines","49","division","2021",7275
+"49 : Land transport and transport via pipelines","49","division","2022",7050
+"49 : Land transport and transport via pipelines","49","division","2023",6430
+"49 : Land transport and transport via pipelines","49","division","2024",5930
+"491 : Passenger rail transport, interurban","491","group","2019",30
+"491 : Passenger rail transport, interurban","491","group","2020",30
+"491 : Passenger rail transport, interurban","491","group","2021",30
+"491 : Passenger rail transport, interurban","491","group","2022",30
+"491 : Passenger rail transport, interurban","491","group","2023",30
+"491 : Passenger rail transport, interurban","491","group","2024",30
+"492 : Freight rail transport","492","group","2019",5
+"492 : Freight rail transport","492","group","2020",5
+"492 : Freight rail transport","492","group","2021",10
+"492 : Freight rail transport","492","group","2022",5
+"492 : Freight rail transport","492","group","2023",10
+"492 : Freight rail transport","492","group","2024",15
+"493 : Other passenger land transport","493","group","2019",2155
+"493 : Other passenger land transport","493","group","2020",2060
+"493 : Other passenger land transport","493","group","2021",1965
+"493 : Other passenger land transport","493","group","2022",1940
+"493 : Other passenger land transport","493","group","2023",1955
+"493 : Other passenger land transport","493","group","2024",1980
+"494 : Freight transport by road and removal services","494","group","2019",4340
+"494 : Freight transport by road and removal services","494","group","2020",4405
+"494 : Freight transport by road and removal services","494","group","2021",5265
+"494 : Freight transport by road and removal services","494","group","2022",5070
+"494 : Freight transport by road and removal services","494","group","2023",4430
+"494 : Freight transport by road and removal services","494","group","2024",3900
+"495 : Transport via pipeline","495","group","2019",5
+"495 : Transport via pipeline","495","group","2020",5
+"495 : Transport via pipeline","495","group","2021",5
+"495 : Transport via pipeline","495","group","2022",5
+"495 : Transport via pipeline","495","group","2023",5
+"495 : Transport via pipeline","495","group","2024",5
+"50 : Water transport","50","division","2019",185
+"50 : Water transport","50","division","2020",175
+"50 : Water transport","50","division","2021",185
+"50 : Water transport","50","division","2022",185
+"50 : Water transport","50","division","2023",180
+"50 : Water transport","50","division","2024",180
+"501 : Sea and coastal passenger water transport","501","group","2019",50
+"501 : Sea and coastal passenger water transport","501","group","2020",45
+"501 : Sea and coastal passenger water transport","501","group","2021",50
+"501 : Sea and coastal passenger water transport","501","group","2022",50
+"501 : Sea and coastal passenger water transport","501","group","2023",45
+"501 : Sea and coastal passenger water transport","501","group","2024",50
+"502 : Sea and coastal freight water transport","502","group","2019",95
+"502 : Sea and coastal freight water transport","502","group","2020",90
+"502 : Sea and coastal freight water transport","502","group","2021",100
+"502 : Sea and coastal freight water transport","502","group","2022",100
+"502 : Sea and coastal freight water transport","502","group","2023",100
+"502 : Sea and coastal freight water transport","502","group","2024",95
+"503 : Inland passenger water transport","503","group","2019",35
+"503 : Inland passenger water transport","503","group","2020",35
+"503 : Inland passenger water transport","503","group","2021",30
+"503 : Inland passenger water transport","503","group","2022",30
+"503 : Inland passenger water transport","503","group","2023",30
+"503 : Inland passenger water transport","503","group","2024",30
+"504 : Inland freight water transport","504","group","2019",5
+"504 : Inland freight water transport","504","group","2020",5
+"504 : Inland freight water transport","504","group","2021",5
+"504 : Inland freight water transport","504","group","2022",5
+"504 : Inland freight water transport","504","group","2023",5
+"504 : Inland freight water transport","504","group","2024",5
+"51 : Air transport","51","division","2019",130
+"51 : Air transport","51","division","2020",120
+"51 : Air transport","51","division","2021",120
+"51 : Air transport","51","division","2022",120
+"51 : Air transport","51","division","2023",110
+"51 : Air transport","51","division","2024",110
+"511 : Passenger air transport","511","group","2019",110
+"511 : Passenger air transport","511","group","2020",105
+"511 : Passenger air transport","511","group","2021",105
+"511 : Passenger air transport","511","group","2022",105
+"511 : Passenger air transport","511","group","2023",95
+"511 : Passenger air transport","511","group","2024",95
+"512 : Freight air transport and space transport","512","group","2019",20
+"512 : Freight air transport and space transport","512","group","2020",15
+"512 : Freight air transport and space transport","512","group","2021",15
+"512 : Freight air transport and space transport","512","group","2022",15
+"512 : Freight air transport and space transport","512","group","2023",15
+"512 : Freight air transport and space transport","512","group","2024",15
+"52 : Warehousing and support activities for transportation","52","division","2019",2655
+"52 : Warehousing and support activities for transportation","52","division","2020",2495
+"52 : Warehousing and support activities for transportation","52","division","2021",2550
+"52 : Warehousing and support activities for transportation","52","division","2022",2655
+"52 : Warehousing and support activities for transportation","52","division","2023",2680
+"52 : Warehousing and support activities for transportation","52","division","2024",2695
+"521 : Warehousing and storage","521","group","2019",970
+"521 : Warehousing and storage","521","group","2020",860
+"521 : Warehousing and storage","521","group","2021",890
+"521 : Warehousing and storage","521","group","2022",935
+"521 : Warehousing and storage","521","group","2023",955
+"521 : Warehousing and storage","521","group","2024",965
+"522 : Support activities for transportation","522","group","2019",1685
+"522 : Support activities for transportation","522","group","2020",1635
+"522 : Support activities for transportation","522","group","2021",1660
+"522 : Support activities for transportation","522","group","2022",1720
+"522 : Support activities for transportation","522","group","2023",1725
+"522 : Support activities for transportation","522","group","2024",1730
+"53 : Postal and courier activities","53","division","2019",760
+"53 : Postal and courier activities","53","division","2020",745
+"53 : Postal and courier activities","53","division","2021",760
+"53 : Postal and courier activities","53","division","2022",755
+"53 : Postal and courier activities","53","division","2023",705
+"53 : Postal and courier activities","53","division","2024",685
+"531 : Postal activities under universal service obligation","531","group","2019",135
+"531 : Postal activities under universal service obligation","531","group","2020",125
+"531 : Postal activities under universal service obligation","531","group","2021",115
+"531 : Postal activities under universal service obligation","531","group","2022",105
+"531 : Postal activities under universal service obligation","531","group","2023",100
+"531 : Postal activities under universal service obligation","531","group","2024",105
+"532 : Other postal and courier activities","532","group","2019",625
+"532 : Other postal and courier activities","532","group","2020",620
+"532 : Other postal and courier activities","532","group","2021",645
+"532 : Other postal and courier activities","532","group","2022",650
+"532 : Other postal and courier activities","532","group","2023",605
+"532 : Other postal and courier activities","532","group","2024",580
+"55 : Accommodation","55","division","2019",6265
+"55 : Accommodation","55","division","2020",6090
+"55 : Accommodation","55","division","2021",5930
+"55 : Accommodation","55","division","2022",6135
+"55 : Accommodation","55","division","2023",6120
+"55 : Accommodation","55","division","2024",6090
+"551 : Hotels and similar accommodation","551","group","2019",5265
+"551 : Hotels and similar accommodation","551","group","2020",5090
+"551 : Hotels and similar accommodation","551","group","2021",4955
+"551 : Hotels and similar accommodation","551","group","2022",5035
+"551 : Hotels and similar accommodation","551","group","2023",5000
+"551 : Hotels and similar accommodation","551","group","2024",4965
+"552 : Holiday and other short-stay accommodation","552","group","2019",500
+"552 : Holiday and other short-stay accommodation","552","group","2020",475
+"552 : Holiday and other short-stay accommodation","552","group","2021",460
+"552 : Holiday and other short-stay accommodation","552","group","2022",525
+"552 : Holiday and other short-stay accommodation","552","group","2023",525
+"552 : Holiday and other short-stay accommodation","552","group","2024",535
+"553 : Camping grounds, recreational vehicle parks and trailer parks","553","group","2019",365
+"553 : Camping grounds, recreational vehicle parks and trailer parks","553","group","2020",355
+"553 : Camping grounds, recreational vehicle parks and trailer parks","553","group","2021",355
+"553 : Camping grounds, recreational vehicle parks and trailer parks","553","group","2022",400
+"553 : Camping grounds, recreational vehicle parks and trailer parks","553","group","2023",405
+"553 : Camping grounds, recreational vehicle parks and trailer parks","553","group","2024",405
+"559 : Other accommodation","559","group","2019",135
+"559 : Other accommodation","559","group","2020",170
+"559 : Other accommodation","559","group","2021",160
+"559 : Other accommodation","559","group","2022",175
+"559 : Other accommodation","559","group","2023",190
+"559 : Other accommodation","559","group","2024",185
+"56 : Food and beverage service activities","56","division","2019",33805
+"56 : Food and beverage service activities","56","division","2020",32415
+"56 : Food and beverage service activities","56","division","2021",33775
+"56 : Food and beverage service activities","56","division","2022",36875
+"56 : Food and beverage service activities","56","division","2023",37475
+"56 : Food and beverage service activities","56","division","2024",37825
+"561 : Restaurants and mobile food service activities","561","group","2019",19770
+"561 : Restaurants and mobile food service activities","561","group","2020",19185
+"561 : Restaurants and mobile food service activities","561","group","2021",20335
+"561 : Restaurants and mobile food service activities","561","group","2022",22680
+"561 : Restaurants and mobile food service activities","561","group","2023",23455
+"561 : Restaurants and mobile food service activities","561","group","2024",23950
+"562 : Event catering and other food service activities","562","group","2019",1940
+"562 : Event catering and other food service activities","562","group","2020",1955
+"562 : Event catering and other food service activities","562","group","2021",2225
+"562 : Event catering and other food service activities","562","group","2022",2385
+"562 : Event catering and other food service activities","562","group","2023",2170
+"562 : Event catering and other food service activities","562","group","2024",2015
+"563 : Beverage serving activities","563","group","2019",12095
+"563 : Beverage serving activities","563","group","2020",11275
+"563 : Beverage serving activities","563","group","2021",11215
+"563 : Beverage serving activities","563","group","2022",11810
+"563 : Beverage serving activities","563","group","2023",11850
+"563 : Beverage serving activities","563","group","2024",11860
+"58 : Publishing activities","58","division","2019",1465
+"58 : Publishing activities","58","division","2020",1395
+"58 : Publishing activities","58","division","2021",1405
+"58 : Publishing activities","58","division","2022",1475
+"58 : Publishing activities","58","division","2023",1445
+"58 : Publishing activities","58","division","2024",1440
+"581 : Publishing of books, periodicals and other publishing activities","581","group","2019",1130
+"581 : Publishing of books, periodicals and other publishing activities","581","group","2020",1040
+"581 : Publishing of books, periodicals and other publishing activities","581","group","2021",1010
+"581 : Publishing of books, periodicals and other publishing activities","581","group","2022",1010
+"581 : Publishing of books, periodicals and other publishing activities","581","group","2023",960
+"581 : Publishing of books, periodicals and other publishing activities","581","group","2024",945
+"582 : Software publishing","582","group","2019",335
+"582 : Software publishing","582","group","2020",355
+"582 : Software publishing","582","group","2021",395
+"582 : Software publishing","582","group","2022",465
+"582 : Software publishing","582","group","2023",485
+"582 : Software publishing","582","group","2024",495
+"59 : Motion picture, video and television programme production, sound recording and music publishing activities","59","division","2019",1260
+"59 : Motion picture, video and television programme production, sound recording and music publishing activities","59","division","2020",1225
+"59 : Motion picture, video and television programme production, sound recording and music publishing activities","59","division","2021",1365
+"59 : Motion picture, video and television programme production, sound recording and music publishing activities","59","division","2022",1455
+"59 : Motion picture, video and television programme production, sound recording and music publishing activities","59","division","2023",1480
+"59 : Motion picture, video and television programme production, sound recording and music publishing activities","59","division","2024",1490
+"591 : Motion picture, video and television programme activities","591","group","2019",1165
+"591 : Motion picture, video and television programme activities","591","group","2020",1120
+"591 : Motion picture, video and television programme activities","591","group","2021",1255
+"591 : Motion picture, video and television programme activities","591","group","2022",1335
+"591 : Motion picture, video and television programme activities","591","group","2023",1350
+"591 : Motion picture, video and television programme activities","591","group","2024",1350
+"592 : Sound recording and music publishing activities","592","group","2019",95
+"592 : Sound recording and music publishing activities","592","group","2020",105
+"592 : Sound recording and music publishing activities","592","group","2021",110
+"592 : Sound recording and music publishing activities","592","group","2022",120
+"592 : Sound recording and music publishing activities","592","group","2023",130
+"592 : Sound recording and music publishing activities","592","group","2024",140
+"60 : Programming and broadcasting activities","60","division","2019",150
+"60 : Programming and broadcasting activities","60","division","2020",140
+"60 : Programming and broadcasting activities","60","division","2021",135
+"60 : Programming and broadcasting activities","60","division","2022",145
+"60 : Programming and broadcasting activities","60","division","2023",125
+"60 : Programming and broadcasting activities","60","division","2024",125
+"601 : Radio broadcasting","601","group","2019",65
+"601 : Radio broadcasting","601","group","2020",60
+"601 : Radio broadcasting","601","group","2021",45
+"601 : Radio broadcasting","601","group","2022",50
+"601 : Radio broadcasting","601","group","2023",40
+"601 : Radio broadcasting","601","group","2024",40
+"602 : Television programming and broadcasting activities","602","group","2019",85
+"602 : Television programming and broadcasting activities","602","group","2020",80
+"602 : Television programming and broadcasting activities","602","group","2021",90
+"602 : Television programming and broadcasting activities","602","group","2022",95
+"602 : Television programming and broadcasting activities","602","group","2023",85
+"602 : Television programming and broadcasting activities","602","group","2024",85
+"61 : Telecommunications","61","division","2019",970
+"61 : Telecommunications","61","division","2020",970
+"61 : Telecommunications","61","division","2021",995
+"61 : Telecommunications","61","division","2022",1005
+"61 : Telecommunications","61","division","2023",1025
+"61 : Telecommunications","61","division","2024",1045
+"611 : Wired telecommunications activities","611","group","2019",130
+"611 : Wired telecommunications activities","611","group","2020",125
+"611 : Wired telecommunications activities","611","group","2021",140
+"611 : Wired telecommunications activities","611","group","2022",160
+"611 : Wired telecommunications activities","611","group","2023",160
+"611 : Wired telecommunications activities","611","group","2024",170
+"612 : Wireless telecommunications activities","612","group","2019",145
+"612 : Wireless telecommunications activities","612","group","2020",150
+"612 : Wireless telecommunications activities","612","group","2021",155
+"612 : Wireless telecommunications activities","612","group","2022",145
+"612 : Wireless telecommunications activities","612","group","2023",150
+"612 : Wireless telecommunications activities","612","group","2024",165
+"613 : Satellite telecommunications activities","613","group","2019",25
+"613 : Satellite telecommunications activities","613","group","2020",25
+"613 : Satellite telecommunications activities","613","group","2021",30
+"613 : Satellite telecommunications activities","613","group","2022",25
+"613 : Satellite telecommunications activities","613","group","2023",25
+"613 : Satellite telecommunications activities","613","group","2024",25
+"619 : Other telecommunications activities","619","group","2019",670
+"619 : Other telecommunications activities","619","group","2020",670
+"619 : Other telecommunications activities","619","group","2021",670
+"619 : Other telecommunications activities","619","group","2022",675
+"619 : Other telecommunications activities","619","group","2023",690
+"619 : Other telecommunications activities","619","group","2024",685
+"62 : Computer programming, consultancy and related activities","62","division","2019",8295
+"62 : Computer programming, consultancy and related activities","62","division","2020",8580
+"62 : Computer programming, consultancy and related activities","62","division","2021",9045
+"62 : Computer programming, consultancy and related activities","62","division","2022",9600
+"62 : Computer programming, consultancy and related activities","62","division","2023",9725
+"62 : Computer programming, consultancy and related activities","62","division","2024",9855
+"620 : Computer programming, consultancy and related activities","620","group","2019",8295
+"620 : Computer programming, consultancy and related activities","620","group","2020",8580
+"620 : Computer programming, consultancy and related activities","620","group","2021",9045
+"620 : Computer programming, consultancy and related activities","620","group","2022",9600
+"620 : Computer programming, consultancy and related activities","620","group","2023",9725
+"620 : Computer programming, consultancy and related activities","620","group","2024",9855
+"63 : Information service activities","63","division","2019",785
+"63 : Information service activities","63","division","2020",805
+"63 : Information service activities","63","division","2021",885
+"63 : Information service activities","63","division","2022",930
+"63 : Information service activities","63","division","2023",970
+"63 : Information service activities","63","division","2024",955
+"631 : Data processing, hosting and related activities; web portals","631","group","2019",580
+"631 : Data processing, hosting and related activities; web portals","631","group","2020",595
+"631 : Data processing, hosting and related activities; web portals","631","group","2021",655
+"631 : Data processing, hosting and related activities; web portals","631","group","2022",685
+"631 : Data processing, hosting and related activities; web portals","631","group","2023",685
+"631 : Data processing, hosting and related activities; web portals","631","group","2024",685
+"639 : Other information service activities","639","group","2019",205
+"639 : Other information service activities","639","group","2020",210
+"639 : Other information service activities","639","group","2021",230
+"639 : Other information service activities","639","group","2022",245
+"639 : Other information service activities","639","group","2023",285
+"639 : Other information service activities","639","group","2024",270
+"64 (Excl 642) : Financial service activities, except insurance and pension funding","64","division","2019",1110
+"64 (Excl 642) : Financial service activities, except insurance and pension funding","64","division","2020",1150
+"64 (Excl 642) : Financial service activities, except insurance and pension funding","64","division","2021",1165
+"64 (Excl 642) : Financial service activities, except insurance and pension funding","64","division","2022",1205
+"64 (Excl 642) : Financial service activities, except insurance and pension funding","64","division","2023",1225
+"64 (Excl 642) : Financial service activities, except insurance and pension funding","64","division","2024",1250
+"641 : Monetary intermediation","641","group","2019",350
+"641 : Monetary intermediation","641","group","2020",345
+"641 : Monetary intermediation","641","group","2021",345
+"641 : Monetary intermediation","641","group","2022",335
+"641 : Monetary intermediation","641","group","2023",330
+"641 : Monetary intermediation","641","group","2024",350
+"643 : Trusts, funds and similar financial entities","643","group","2019",120
+"643 : Trusts, funds and similar financial entities","643","group","2020",120
+"643 : Trusts, funds and similar financial entities","643","group","2021",120
+"643 : Trusts, funds and similar financial entities","643","group","2022",115
+"643 : Trusts, funds and similar financial entities","643","group","2023",0
+"643 : Trusts, funds and similar financial entities","643","group","2024",130
+"649 : Other financial service activities, except insurance and pension funding","649","group","2019",640
+"649 : Other financial service activities, except insurance and pension funding","649","group","2020",685
+"649 : Other financial service activities, except insurance and pension funding","649","group","2021",700
+"649 : Other financial service activities, except insurance and pension funding","649","group","2022",755
+"649 : Other financial service activities, except insurance and pension funding","649","group","2023",135
+"649 : Other financial service activities, except insurance and pension funding","649","group","2024",770
+"65 : Insurance, reinsurance and pension funding, except compulsory social security","65","division","2019",250
+"65 : Insurance, reinsurance and pension funding, except compulsory social security","65","division","2020",250
+"65 : Insurance, reinsurance and pension funding, except compulsory social security","65","division","2021",245
+"65 : Insurance, reinsurance and pension funding, except compulsory social security","65","division","2022",245
+"65 : Insurance, reinsurance and pension funding, except compulsory social security","65","division","2023",760
+"65 : Insurance, reinsurance and pension funding, except compulsory social security","65","division","2024",245
+"651 : Insurance","651","group","2019",240
+"651 : Insurance","651","group","2020",240
+"651 : Insurance","651","group","2021",235
+"651 : Insurance","651","group","2022",235
+"651 : Insurance","651","group","2023",245
+"651 : Insurance","651","group","2024",235
+"652 : Reinsurance","652","group","2019",10
+"652 : Reinsurance","652","group","2020",10
+"652 : Reinsurance","652","group","2021",10
+"652 : Reinsurance","652","group","2022",10
+"652 : Reinsurance","652","group","2023",235
+"652 : Reinsurance","652","group","2024",10
+"653 : Pension funding","653","group","2019",0
+"653 : Pension funding","653","group","2020",0
+"653 : Pension funding","653","group","2021",0
+"653 : Pension funding","653","group","2022",0
+"653 : Pension funding","653","group","2023",10
+"653 : Pension funding","653","group","2024",0
+"66 : Activities auxiliary to financial services and insurance activities","66","division","2019",3420
+"66 : Activities auxiliary to financial services and insurance activities","66","division","2020",3430
+"66 : Activities auxiliary to financial services and insurance activities","66","division","2021",3420
+"66 : Activities auxiliary to financial services and insurance activities","66","division","2022",3410
+"66 : Activities auxiliary to financial services and insurance activities","66","division","2023",3370
+"66 : Activities auxiliary to financial services and insurance activities","66","division","2024",3335
+"661 : Activities auxiliary to financial services, except insurance and pension funding","661","group","2019",1580
+"661 : Activities auxiliary to financial services, except insurance and pension funding","661","group","2020",1580
+"661 : Activities auxiliary to financial services, except insurance and pension funding","661","group","2021",1595
+"661 : Activities auxiliary to financial services, except insurance and pension funding","661","group","2022",1580
+"661 : Activities auxiliary to financial services, except insurance and pension funding","661","group","2023",1555
+"661 : Activities auxiliary to financial services, except insurance and pension funding","661","group","2024",1515
+"662 : Activities auxiliary to insurance and pension funding","662","group","2019",1360
+"662 : Activities auxiliary to insurance and pension funding","662","group","2020",1355
+"662 : Activities auxiliary to insurance and pension funding","662","group","2021",1310
+"662 : Activities auxiliary to insurance and pension funding","662","group","2022",1300
+"662 : Activities auxiliary to insurance and pension funding","662","group","2023",1260
+"662 : Activities auxiliary to insurance and pension funding","662","group","2024",1250
+"663 : Fund management activities","663","group","2019",480
+"663 : Fund management activities","663","group","2020",495
+"663 : Fund management activities","663","group","2021",515
+"663 : Fund management activities","663","group","2022",530
+"663 : Fund management activities","663","group","2023",555
+"663 : Fund management activities","663","group","2024",570
+"68 : Real estate activities","68","division","2019",6450
+"68 : Real estate activities","68","division","2020",6430
+"68 : Real estate activities","68","division","2021",6555
+"68 : Real estate activities","68","division","2022",6565
+"68 : Real estate activities","68","division","2023",6510
+"68 : Real estate activities","68","division","2024",6670
+"681 : Buying and selling of own real estate","681","group","2019",235
+"681 : Buying and selling of own real estate","681","group","2020",245
+"681 : Buying and selling of own real estate","681","group","2021",240
+"681 : Buying and selling of own real estate","681","group","2022",270
+"681 : Buying and selling of own real estate","681","group","2023",290
+"681 : Buying and selling of own real estate","681","group","2024",285
+"682 : Renting and operating of own or leased real estate","682","group","2019",2715
+"682 : Renting and operating of own or leased real estate","682","group","2020",2745
+"682 : Renting and operating of own or leased real estate","682","group","2021",2775
+"682 : Renting and operating of own or leased real estate","682","group","2022",2775
+"682 : Renting and operating of own or leased real estate","682","group","2023",2710
+"682 : Renting and operating of own or leased real estate","682","group","2024",2830
+"683 : Real estate activities on a fee or contract basis","683","group","2019",3500
+"683 : Real estate activities on a fee or contract basis","683","group","2020",3440
+"683 : Real estate activities on a fee or contract basis","683","group","2021",3540
+"683 : Real estate activities on a fee or contract basis","683","group","2022",3520
+"683 : Real estate activities on a fee or contract basis","683","group","2023",3510
+"683 : Real estate activities on a fee or contract basis","683","group","2024",3555
+"69 : Legal and accounting activities","69","division","2019",7795
+"69 : Legal and accounting activities","69","division","2020",7755
+"69 : Legal and accounting activities","69","division","2021",7770
+"69 : Legal and accounting activities","69","division","2022",7775
+"69 : Legal and accounting activities","69","division","2023",7710
+"69 : Legal and accounting activities","69","division","2024",7700
+"691 : Legal activities","691","group","2019",4185
+"691 : Legal activities","691","group","2020",4110
+"691 : Legal activities","691","group","2021",4115
+"691 : Legal activities","691","group","2022",4095
+"691 : Legal activities","691","group","2023",4025
+"691 : Legal activities","691","group","2024",4035
+"692 : Accounting, bookkeeping and auditing activities; tax consultancy","692","group","2019",3610
+"692 : Accounting, bookkeeping and auditing activities; tax consultancy","692","group","2020",3645
+"692 : Accounting, bookkeeping and auditing activities; tax consultancy","692","group","2021",3655
+"692 : Accounting, bookkeeping and auditing activities; tax consultancy","692","group","2022",3680
+"692 : Accounting, bookkeeping and auditing activities; tax consultancy","692","group","2023",3685
+"692 : Accounting, bookkeeping and auditing activities; tax consultancy","692","group","2024",3665
+"70 : Activities of head offices; management consultancy activities","70","division","2019",6535
+"70 : Activities of head offices; management consultancy activities","70","division","2020",6625
+"70 : Activities of head offices; management consultancy activities","70","division","2021",7130
+"70 : Activities of head offices; management consultancy activities","70","division","2022",7700
+"70 : Activities of head offices; management consultancy activities","70","division","2023",7915
+"70 : Activities of head offices; management consultancy activities","70","division","2024",8145
+"701 : Activities of head offices","701","group","2019",1135
+"701 : Activities of head offices","701","group","2020",1220
+"701 : Activities of head offices","701","group","2021",1385
+"701 : Activities of head offices","701","group","2022",1550
+"701 : Activities of head offices","701","group","2023",1655
+"701 : Activities of head offices","701","group","2024",1910
+"702 : Management consultancy activities","702","group","2019",5400
+"702 : Management consultancy activities","702","group","2020",5405
+"702 : Management consultancy activities","702","group","2021",5745
+"702 : Management consultancy activities","702","group","2022",6150
+"702 : Management consultancy activities","702","group","2023",6260
+"702 : Management consultancy activities","702","group","2024",6235
+"71 : Architectural and engineering activities; technical testing and analysis","71","division","2019",6165
+"71 : Architectural and engineering activities; technical testing and analysis","71","division","2020",6150
+"71 : Architectural and engineering activities; technical testing and analysis","71","division","2021",6235
+"71 : Architectural and engineering activities; technical testing and analysis","71","division","2022",6365
+"71 : Architectural and engineering activities; technical testing and analysis","71","division","2023",6465
+"71 : Architectural and engineering activities; technical testing and analysis","71","division","2024",6475
+"711 : Architectural and engineering activities and related technical consultancy","711","group","2019",5590
+"711 : Architectural and engineering activities and related technical consultancy","711","group","2020",5570
+"711 : Architectural and engineering activities and related technical consultancy","711","group","2021",5635
+"711 : Architectural and engineering activities and related technical consultancy","711","group","2022",5765
+"711 : Architectural and engineering activities and related technical consultancy","711","group","2023",5855
+"711 : Architectural and engineering activities and related technical consultancy","711","group","2024",5865
+"712 : Technical testing and analysis","712","group","2019",575
+"712 : Technical testing and analysis","712","group","2020",580
+"712 : Technical testing and analysis","712","group","2021",600
+"712 : Technical testing and analysis","712","group","2022",600
+"712 : Technical testing and analysis","712","group","2023",610
+"712 : Technical testing and analysis","712","group","2024",610
+"72 : Scientific research and development","72","division","2019",1020
+"72 : Scientific research and development","72","division","2020",1040
+"72 : Scientific research and development","72","division","2021",1150
+"72 : Scientific research and development","72","division","2022",1225
+"72 : Scientific research and development","72","division","2023",1290
+"72 : Scientific research and development","72","division","2024",1300
+"721 : Research and experimental development on natural sciences and engineering","721","group","2019",955
+"721 : Research and experimental development on natural sciences and engineering","721","group","2020",965
+"721 : Research and experimental development on natural sciences and engineering","721","group","2021",1065
+"721 : Research and experimental development on natural sciences and engineering","721","group","2022",1140
+"721 : Research and experimental development on natural sciences and engineering","721","group","2023",1220
+"721 : Research and experimental development on natural sciences and engineering","721","group","2024",1220
+"722 : Research and experimental development on social sciences and humanities","722","group","2019",65
+"722 : Research and experimental development on social sciences and humanities","722","group","2020",75
+"722 : Research and experimental development on social sciences and humanities","722","group","2021",85
+"722 : Research and experimental development on social sciences and humanities","722","group","2022",85
+"722 : Research and experimental development on social sciences and humanities","722","group","2023",70
+"722 : Research and experimental development on social sciences and humanities","722","group","2024",80
+"73 : Advertising and market research","73","division","2019",2440
+"73 : Advertising and market research","73","division","2020",2375
+"73 : Advertising and market research","73","division","2021",2415
+"73 : Advertising and market research","73","division","2022",2475
+"73 : Advertising and market research","73","division","2023",2480
+"73 : Advertising and market research","73","division","2024",2445
+"731 : Advertising","731","group","2019",1930
+"731 : Advertising","731","group","2020",1875
+"731 : Advertising","731","group","2021",1920
+"731 : Advertising","731","group","2022",1975
+"731 : Advertising","731","group","2023",1975
+"731 : Advertising","731","group","2024",1950
+"732 : Market research and public opinion polling","732","group","2019",510
+"732 : Market research and public opinion polling","732","group","2020",500
+"732 : Market research and public opinion polling","732","group","2021",495
+"732 : Market research and public opinion polling","732","group","2022",500
+"732 : Market research and public opinion polling","732","group","2023",505
+"732 : Market research and public opinion polling","732","group","2024",495
+"74 : Other professional, scientific and technical activities","74","division","2019",3115
+"74 : Other professional, scientific and technical activities","74","division","2020",3110
+"74 : Other professional, scientific and technical activities","74","division","2021",3150
+"74 : Other professional, scientific and technical activities","74","division","2022",3370
+"74 : Other professional, scientific and technical activities","74","division","2023",3385
+"74 : Other professional, scientific and technical activities","74","division","2024",3465
+"741 : Specialised design activities","741","group","2019",1080
+"741 : Specialised design activities","741","group","2020",1070
+"741 : Specialised design activities","741","group","2021",1065
+"741 : Specialised design activities","741","group","2022",1110
+"741 : Specialised design activities","741","group","2023",1095
+"741 : Specialised design activities","741","group","2024",1100
+"742 : Photographic activities","742","group","2019",200
+"742 : Photographic activities","742","group","2020",205
+"742 : Photographic activities","742","group","2021",195
+"742 : Photographic activities","742","group","2022",200
+"742 : Photographic activities","742","group","2023",210
+"742 : Photographic activities","742","group","2024",215
+"743 : Translation and interpretation activities","743","group","2019",80
+"743 : Translation and interpretation activities","743","group","2020",80
+"743 : Translation and interpretation activities","743","group","2021",85
+"743 : Translation and interpretation activities","743","group","2022",85
+"743 : Translation and interpretation activities","743","group","2023",95
+"743 : Translation and interpretation activities","743","group","2024",90
+"749 : Other professional, scientific and technical activities n.e.c.","749","group","2019",1755
+"749 : Other professional, scientific and technical activities n.e.c.","749","group","2020",1755
+"749 : Other professional, scientific and technical activities n.e.c.","749","group","2021",1805
+"749 : Other professional, scientific and technical activities n.e.c.","749","group","2022",1975
+"749 : Other professional, scientific and technical activities n.e.c.","749","group","2023",1985
+"749 : Other professional, scientific and technical activities n.e.c.","749","group","2024",2060
+"75 : Veterinary activities","75","division","2019",1015
+"75 : Veterinary activities","75","division","2020",965
+"75 : Veterinary activities","75","division","2021",950
+"75 : Veterinary activities","75","division","2022",895
+"75 : Veterinary activities","75","division","2023",900
+"75 : Veterinary activities","75","division","2024",950
+"750 : Veterinary activities","750","group","2019",1015
+"750 : Veterinary activities","750","group","2020",965
+"750 : Veterinary activities","750","group","2021",950
+"750 : Veterinary activities","750","group","2022",895
+"750 : Veterinary activities","750","group","2023",900
+"750 : Veterinary activities","750","group","2024",950
+"77 : Rental and leasing activities","77","division","2019",2410
+"77 : Rental and leasing activities","77","division","2020",2325
+"77 : Rental and leasing activities","77","division","2021",2295
+"77 : Rental and leasing activities","77","division","2022",2375
+"77 : Rental and leasing activities","77","division","2023",2375
+"77 : Rental and leasing activities","77","division","2024",2365
+"771 : Renting and leasing of motor vehicles","771","group","2019",500
+"771 : Renting and leasing of motor vehicles","771","group","2020",480
+"771 : Renting and leasing of motor vehicles","771","group","2021",480
+"771 : Renting and leasing of motor vehicles","771","group","2022",495
+"771 : Renting and leasing of motor vehicles","771","group","2023",485
+"771 : Renting and leasing of motor vehicles","771","group","2024",495
+"772 : Renting and leasing of personal and household goods","772","group","2019",315
+"772 : Renting and leasing of personal and household goods","772","group","2020",290
+"772 : Renting and leasing of personal and household goods","772","group","2021",270
+"772 : Renting and leasing of personal and household goods","772","group","2022",295
+"772 : Renting and leasing of personal and household goods","772","group","2023",325
+"772 : Renting and leasing of personal and household goods","772","group","2024",305
+"773 : Renting and leasing of other machinery, equipment and tangible goods","773","group","2019",1545
+"773 : Renting and leasing of other machinery, equipment and tangible goods","773","group","2020",1495
+"773 : Renting and leasing of other machinery, equipment and tangible goods","773","group","2021",1475
+"773 : Renting and leasing of other machinery, equipment and tangible goods","773","group","2022",1520
+"773 : Renting and leasing of other machinery, equipment and tangible goods","773","group","2023",1495
+"773 : Renting and leasing of other machinery, equipment and tangible goods","773","group","2024",1495
+"774 : Leasing of intellectual property and similar products, except copyrighted works","774","group","2019",50
+"774 : Leasing of intellectual property and similar products, except copyrighted works","774","group","2020",60
+"774 : Leasing of intellectual property and similar products, except copyrighted works","774","group","2021",70
+"774 : Leasing of intellectual property and similar products, except copyrighted works","774","group","2022",65
+"774 : Leasing of intellectual property and similar products, except copyrighted works","774","group","2023",70
+"774 : Leasing of intellectual property and similar products, except copyrighted works","774","group","2024",70
+"78 : Employment activities","78","division","2019",6400
+"78 : Employment activities","78","division","2020",6130
+"78 : Employment activities","78","division","2021",6390
+"78 : Employment activities","78","division","2022",6935
+"78 : Employment activities","78","division","2023",6995
+"78 : Employment activities","78","division","2024",6950
+"781 : Activities of employment placement agencies","781","group","2019",2440
+"781 : Activities of employment placement agencies","781","group","2020",2320
+"781 : Activities of employment placement agencies","781","group","2021",2525
+"781 : Activities of employment placement agencies","781","group","2022",2930
+"781 : Activities of employment placement agencies","781","group","2023",2915
+"781 : Activities of employment placement agencies","781","group","2024",2885
+"782 : Temporary employment agency activities","782","group","2019",3705
+"782 : Temporary employment agency activities","782","group","2020",3545
+"782 : Temporary employment agency activities","782","group","2021",3600
+"782 : Temporary employment agency activities","782","group","2022",3695
+"782 : Temporary employment agency activities","782","group","2023",3790
+"782 : Temporary employment agency activities","782","group","2024",3760
+"783 : Other human resources provision","783","group","2019",255
+"783 : Other human resources provision","783","group","2020",265
+"783 : Other human resources provision","783","group","2021",265
+"783 : Other human resources provision","783","group","2022",310
+"783 : Other human resources provision","783","group","2023",290
+"783 : Other human resources provision","783","group","2024",305
+"79 : Travel agency, tour operator and other reservation service and related activities","79","division","2019",1050
+"79 : Travel agency, tour operator and other reservation service and related activities","79","division","2020",995
+"79 : Travel agency, tour operator and other reservation service and related activities","79","division","2021",910
+"79 : Travel agency, tour operator and other reservation service and related activities","79","division","2022",885
+"79 : Travel agency, tour operator and other reservation service and related activities","79","division","2023",890
+"79 : Travel agency, tour operator and other reservation service and related activities","79","division","2024",930
+"791 : Travel agency and tour operator activities","791","group","2019",890
+"791 : Travel agency and tour operator activities","791","group","2020",845
+"791 : Travel agency and tour operator activities","791","group","2021",755
+"791 : Travel agency and tour operator activities","791","group","2022",725
+"791 : Travel agency and tour operator activities","791","group","2023",735
+"791 : Travel agency and tour operator activities","791","group","2024",775
+"799 : Other reservation service and related activities","799","group","2019",160
+"799 : Other reservation service and related activities","799","group","2020",150
+"799 : Other reservation service and related activities","799","group","2021",155
+"799 : Other reservation service and related activities","799","group","2022",160
+"799 : Other reservation service and related activities","799","group","2023",155
+"799 : Other reservation service and related activities","799","group","2024",155
+"80 : Security and investigation activities","80","division","2019",1580
+"80 : Security and investigation activities","80","division","2020",1600
+"80 : Security and investigation activities","80","division","2021",1640
+"80 : Security and investigation activities","80","division","2022",1675
+"80 : Security and investigation activities","80","division","2023",1735
+"80 : Security and investigation activities","80","division","2024",1790
+"801 : Private security activities","801","group","2019",1290
+"801 : Private security activities","801","group","2020",1280
+"801 : Private security activities","801","group","2021",1315
+"801 : Private security activities","801","group","2022",1345
+"801 : Private security activities","801","group","2023",1380
+"801 : Private security activities","801","group","2024",1410
+"802 : Security systems service activities","802","group","2019",240
+"802 : Security systems service activities","802","group","2020",275
+"802 : Security systems service activities","802","group","2021",285
+"802 : Security systems service activities","802","group","2022",295
+"802 : Security systems service activities","802","group","2023",315
+"802 : Security systems service activities","802","group","2024",335
+"803 : Investigation activities","803","group","2019",50
+"803 : Investigation activities","803","group","2020",45
+"803 : Investigation activities","803","group","2021",40
+"803 : Investigation activities","803","group","2022",35
+"803 : Investigation activities","803","group","2023",40
+"803 : Investigation activities","803","group","2024",45
+"81 : Services to buildings and landscape activities","81","division","2019",5730
+"81 : Services to buildings and landscape activities","81","division","2020",5705
+"81 : Services to buildings and landscape activities","81","division","2021",5985
+"81 : Services to buildings and landscape activities","81","division","2022",6250
+"81 : Services to buildings and landscape activities","81","division","2023",6350
+"81 : Services to buildings and landscape activities","81","division","2024",6300
+"811 : Combined facilities support activities","811","group","2019",500
+"811 : Combined facilities support activities","811","group","2020",505
+"811 : Combined facilities support activities","811","group","2021",520
+"811 : Combined facilities support activities","811","group","2022",550
+"811 : Combined facilities support activities","811","group","2023",570
+"811 : Combined facilities support activities","811","group","2024",590
+"812 : Cleaning activities","812","group","2019",4260
+"812 : Cleaning activities","812","group","2020",4205
+"812 : Cleaning activities","812","group","2021",4395
+"812 : Cleaning activities","812","group","2022",4545
+"812 : Cleaning activities","812","group","2023",4625
+"812 : Cleaning activities","812","group","2024",4560
+"813 : Landscape service activities","813","group","2019",970
+"813 : Landscape service activities","813","group","2020",995
+"813 : Landscape service activities","813","group","2021",1070
+"813 : Landscape service activities","813","group","2022",1155
+"813 : Landscape service activities","813","group","2023",1155
+"813 : Landscape service activities","813","group","2024",1150
+"82 : Office administrative, office support and other business support activities","82","division","2019",6975
+"82 : Office administrative, office support and other business support activities","82","division","2020",6640
+"82 : Office administrative, office support and other business support activities","82","division","2021",6690
+"82 : Office administrative, office support and other business support activities","82","division","2022",7180
+"82 : Office administrative, office support and other business support activities","82","division","2023",7265
+"82 : Office administrative, office support and other business support activities","82","division","2024",7175
+"821 : Office administrative and support activities","821","group","2019",620
+"821 : Office administrative and support activities","821","group","2020",575
+"821 : Office administrative and support activities","821","group","2021",800
+"821 : Office administrative and support activities","821","group","2022",855
+"821 : Office administrative and support activities","821","group","2023",700
+"821 : Office administrative and support activities","821","group","2024",525
+"822 : Activities of call centres","822","group","2019",260
+"822 : Activities of call centres","822","group","2020",235
+"822 : Activities of call centres","822","group","2021",235
+"822 : Activities of call centres","822","group","2022",225
+"822 : Activities of call centres","822","group","2023",210
+"822 : Activities of call centres","822","group","2024",190
+"823 : Organisation of conventions and trade shows","823","group","2019",500
+"823 : Organisation of conventions and trade shows","823","group","2020",480
+"823 : Organisation of conventions and trade shows","823","group","2021",420
+"823 : Organisation of conventions and trade shows","823","group","2022",445
+"823 : Organisation of conventions and trade shows","823","group","2023",495
+"823 : Organisation of conventions and trade shows","823","group","2024",505
+"829 : Business support service activities n.e.c.","829","group","2019",5595
+"829 : Business support service activities n.e.c.","829","group","2020",5350
+"829 : Business support service activities n.e.c.","829","group","2021",5235
+"829 : Business support service activities n.e.c.","829","group","2022",5655
+"829 : Business support service activities n.e.c.","829","group","2023",5860
+"829 : Business support service activities n.e.c.","829","group","2024",5955
+"85 : Education","85","division","2019",8220
+"85 : Education","85","division","2020",8125
+"85 : Education","85","division","2021",8135
+"85 : Education","85","division","2022",8365
+"85 : Education","85","division","2023",8190
+"85 : Education","85","division","2024",8350
+"851 : Pre-primary education","851","group","2019",1710
+"851 : Pre-primary education","851","group","2020",1690
+"851 : Pre-primary education","851","group","2021",1710
+"851 : Pre-primary education","851","group","2022",1725
+"851 : Pre-primary education","851","group","2023",1745
+"851 : Pre-primary education","851","group","2024",1745
+"852 : Primary education","852","group","2019",1325
+"852 : Primary education","852","group","2020",1290
+"852 : Primary education","852","group","2021",1235
+"852 : Primary education","852","group","2022",1225
+"852 : Primary education","852","group","2023",1220
+"852 : Primary education","852","group","2024",1205
+"853 : Secondary education","853","group","2019",1215
+"853 : Secondary education","853","group","2020",1200
+"853 : Secondary education","853","group","2021",1190
+"853 : Secondary education","853","group","2022",1185
+"853 : Secondary education","853","group","2023",975
+"853 : Secondary education","853","group","2024",985
+"854 : Higher education","854","group","2019",610
+"854 : Higher education","854","group","2020",605
+"854 : Higher education","854","group","2021",580
+"854 : Higher education","854","group","2022",565
+"854 : Higher education","854","group","2023",535
+"854 : Higher education","854","group","2024",550
+"855 : Other education","855","group","2019",2970
+"855 : Other education","855","group","2020",2940
+"855 : Other education","855","group","2021",2960
+"855 : Other education","855","group","2022",3135
+"855 : Other education","855","group","2023",3140
+"855 : Other education","855","group","2024",3250
+"856 : Educational support activities","856","group","2019",390
+"856 : Educational support activities","856","group","2020",400
+"856 : Educational support activities","856","group","2021",460
+"856 : Educational support activities","856","group","2022",530
+"856 : Educational support activities","856","group","2023",575
+"856 : Educational support activities","856","group","2024",615
+"86 : Human health activities","86","division","2019",11225
+"86 : Human health activities","86","division","2020",11060
+"86 : Human health activities","86","division","2021",11215
+"86 : Human health activities","86","division","2022",11435
+"86 : Human health activities","86","division","2023",11580
+"86 : Human health activities","86","division","2024",11870
+"861 : Hospital activities","861","group","2019",610
+"861 : Hospital activities","861","group","2020",605
+"861 : Hospital activities","861","group","2021",585
+"861 : Hospital activities","861","group","2022",605
+"861 : Hospital activities","861","group","2023",585
+"861 : Hospital activities","861","group","2024",605
+"862 : Medical and dental practice activities","862","group","2019",8875
+"862 : Medical and dental practice activities","862","group","2020",8690
+"862 : Medical and dental practice activities","862","group","2021",8705
+"862 : Medical and dental practice activities","862","group","2022",8785
+"862 : Medical and dental practice activities","862","group","2023",8785
+"862 : Medical and dental practice activities","862","group","2024",8890
+"869 : Other human health activities","869","group","2019",1740
+"869 : Other human health activities","869","group","2020",1765
+"869 : Other human health activities","869","group","2021",1925
+"869 : Other human health activities","869","group","2022",2045
+"869 : Other human health activities","869","group","2023",2210
+"869 : Other human health activities","869","group","2024",2375
+"87 : Residential care activities","87","division","2019",7200
+"87 : Residential care activities","87","division","2020",7170
+"87 : Residential care activities","87","division","2021",7220
+"87 : Residential care activities","87","division","2022",7375
+"87 : Residential care activities","87","division","2023",7550
+"87 : Residential care activities","87","division","2024",7735
+"871 : Residential nursing care activities","871","group","2019",1500
+"871 : Residential nursing care activities","871","group","2020",1460
+"871 : Residential nursing care activities","871","group","2021",1490
+"871 : Residential nursing care activities","871","group","2022",1520
+"871 : Residential nursing care activities","871","group","2023",1540
+"871 : Residential nursing care activities","871","group","2024",1590
+"872 : Residential care activities for learning disabilities, mental health and substance abuse","872","group","2019",425
+"872 : Residential care activities for learning disabilities, mental health and substance abuse","872","group","2020",450
+"872 : Residential care activities for learning disabilities, mental health and substance abuse","872","group","2021",445
+"872 : Residential care activities for learning disabilities, mental health and substance abuse","872","group","2022",495
+"872 : Residential care activities for learning disabilities, mental health and substance abuse","872","group","2023",525
+"872 : Residential care activities for learning disabilities, mental health and substance abuse","872","group","2024",540
+"873 : Residential care activities for the elderly and disabled","873","group","2019",2610
+"873 : Residential care activities for the elderly and disabled","873","group","2020",2570
+"873 : Residential care activities for the elderly and disabled","873","group","2021",2520
+"873 : Residential care activities for the elderly and disabled","873","group","2022",2505
+"873 : Residential care activities for the elderly and disabled","873","group","2023",2510
+"873 : Residential care activities for the elderly and disabled","873","group","2024",2540
+"879 : Other residential care activities","879","group","2019",2665
+"879 : Other residential care activities","879","group","2020",2690
+"879 : Other residential care activities","879","group","2021",2765
+"879 : Other residential care activities","879","group","2022",2855
+"879 : Other residential care activities","879","group","2023",2975
+"879 : Other residential care activities","879","group","2024",3065
+"88 : Social work activities without accommodation","88","division","2019",12900
+"88 : Social work activities without accommodation","88","division","2020",12935
+"88 : Social work activities without accommodation","88","division","2021",12975
+"88 : Social work activities without accommodation","88","division","2022",13190
+"88 : Social work activities without accommodation","88","division","2023",13450
+"88 : Social work activities without accommodation","88","division","2024",13495
+"881 : Social work activities without accommodation for the elderly and disabled","881","group","2019",3160
+"881 : Social work activities without accommodation for the elderly and disabled","881","group","2020",3275
+"881 : Social work activities without accommodation for the elderly and disabled","881","group","2021",3385
+"881 : Social work activities without accommodation for the elderly and disabled","881","group","2022",3475
+"881 : Social work activities without accommodation for the elderly and disabled","881","group","2023",3620
+"881 : Social work activities without accommodation for the elderly and disabled","881","group","2024",3645
+"889 : Other social work activities without accommodation","889","group","2019",9740
+"889 : Other social work activities without accommodation","889","group","2020",9660
+"889 : Other social work activities without accommodation","889","group","2021",9590
+"889 : Other social work activities without accommodation","889","group","2022",9715
+"889 : Other social work activities without accommodation","889","group","2023",9830
+"889 : Other social work activities without accommodation","889","group","2024",9850
+"90 : Creative, arts and entertainment activities","90","division","2019",1220
+"90 : Creative, arts and entertainment activities","90","division","2020",1150
+"90 : Creative, arts and entertainment activities","90","division","2021",1070
+"90 : Creative, arts and entertainment activities","90","division","2022",1175
+"90 : Creative, arts and entertainment activities","90","division","2023",1295
+"90 : Creative, arts and entertainment activities","90","division","2024",1345
+"900 : Creative, arts and entertainment activities","900","group","2019",1220
+"900 : Creative, arts and entertainment activities","900","group","2020",1150
+"900 : Creative, arts and entertainment activities","900","group","2021",1070
+"900 : Creative, arts and entertainment activities","900","group","2022",1175
+"900 : Creative, arts and entertainment activities","900","group","2023",1295
+"900 : Creative, arts and entertainment activities","900","group","2024",1345
+"91 : Libraries, archives, museums and other cultural activities","91","division","2019",610
+"91 : Libraries, archives, museums and other cultural activities","91","division","2020",605
+"91 : Libraries, archives, museums and other cultural activities","91","division","2021",600
+"91 : Libraries, archives, museums and other cultural activities","91","division","2022",635
+"91 : Libraries, archives, museums and other cultural activities","91","division","2023",655
+"91 : Libraries, archives, museums and other cultural activities","91","division","2024",660
+"910 : Libraries, archives, museums and other cultural activities","910","group","2019",610
+"910 : Libraries, archives, museums and other cultural activities","910","group","2020",605
+"910 : Libraries, archives, museums and other cultural activities","910","group","2021",600
+"910 : Libraries, archives, museums and other cultural activities","910","group","2022",635
+"910 : Libraries, archives, museums and other cultural activities","910","group","2023",655
+"910 : Libraries, archives, museums and other cultural activities","910","group","2024",660
+"92 : Gambling and betting activities","92","division","2019",355
+"92 : Gambling and betting activities","92","division","2020",335
+"92 : Gambling and betting activities","92","division","2021",330
+"92 : Gambling and betting activities","92","division","2022",325
+"92 : Gambling and betting activities","92","division","2023",320
+"92 : Gambling and betting activities","92","division","2024",300
+"920 : Gambling and betting activities","920","group","2019",355
+"920 : Gambling and betting activities","920","group","2020",335
+"920 : Gambling and betting activities","920","group","2021",330
+"920 : Gambling and betting activities","920","group","2022",325
+"920 : Gambling and betting activities","920","group","2023",320
+"920 : Gambling and betting activities","920","group","2024",300
+"93 : Sports activities and amusement and recreation activities","93","division","2019",6645
+"93 : Sports activities and amusement and recreation activities","93","division","2020",6405
+"93 : Sports activities and amusement and recreation activities","93","division","2021",6290
+"93 : Sports activities and amusement and recreation activities","93","division","2022",6680
+"93 : Sports activities and amusement and recreation activities","93","division","2023",6810
+"93 : Sports activities and amusement and recreation activities","93","division","2024",6935
+"931 : Sports activities","931","group","2019",5195
+"931 : Sports activities","931","group","2020",5020
+"931 : Sports activities","931","group","2021",4955
+"931 : Sports activities","931","group","2022",5165
+"931 : Sports activities","931","group","2023",5285
+"931 : Sports activities","931","group","2024",5370
+"932 : Amusement and recreation activities","932","group","2019",1450
+"932 : Amusement and recreation activities","932","group","2020",1385
+"932 : Amusement and recreation activities","932","group","2021",1335
+"932 : Amusement and recreation activities","932","group","2022",1515
+"932 : Amusement and recreation activities","932","group","2023",1525
+"932 : Amusement and recreation activities","932","group","2024",1565
+"94 : Activities of membership organisations","94","division","2019",3155
+"94 : Activities of membership organisations","94","division","2020",3145
+"94 : Activities of membership organisations","94","division","2021",3080
+"94 : Activities of membership organisations","94","division","2022",3125
+"94 : Activities of membership organisations","94","division","2023",3135
+"94 : Activities of membership organisations","94","division","2024",3185
+"941 : Activities of business, employers and professional membership organisations","941","group","2019",650
+"941 : Activities of business, employers and professional membership organisations","941","group","2020",640
+"941 : Activities of business, employers and professional membership organisations","941","group","2021",625
+"941 : Activities of business, employers and professional membership organisations","941","group","2022",630
+"941 : Activities of business, employers and professional membership organisations","941","group","2023",640
+"941 : Activities of business, employers and professional membership organisations","941","group","2024",645
+"942 : Activities of trade unions","942","group","2019",60
+"942 : Activities of trade unions","942","group","2020",60
+"942 : Activities of trade unions","942","group","2021",60
+"942 : Activities of trade unions","942","group","2022",60
+"942 : Activities of trade unions","942","group","2023",65
+"942 : Activities of trade unions","942","group","2024",60
+"949 : Activities of other membership organisations","949","group","2019",2445
+"949 : Activities of other membership organisations","949","group","2020",2445
+"949 : Activities of other membership organisations","949","group","2021",2395
+"949 : Activities of other membership organisations","949","group","2022",2435
+"949 : Activities of other membership organisations","949","group","2023",2430
+"949 : Activities of other membership organisations","949","group","2024",2480
+"95 : Repair of computers and personal and household goods","95","division","2019",535
+"95 : Repair of computers and personal and household goods","95","division","2020",525
+"95 : Repair of computers and personal and household goods","95","division","2021",515
+"95 : Repair of computers and personal and household goods","95","division","2022",520
+"95 : Repair of computers and personal and household goods","95","division","2023",525
+"95 : Repair of computers and personal and household goods","95","division","2024",515
+"951 : Repair of computers and communication equipment","951","group","2019",270
+"951 : Repair of computers and communication equipment","951","group","2020",265
+"951 : Repair of computers and communication equipment","951","group","2021",265
+"951 : Repair of computers and communication equipment","951","group","2022",260
+"951 : Repair of computers and communication equipment","951","group","2023",270
+"951 : Repair of computers and communication equipment","951","group","2024",265
+"952 : Repair of personal and household goods","952","group","2019",265
+"952 : Repair of personal and household goods","952","group","2020",260
+"952 : Repair of personal and household goods","952","group","2021",250
+"952 : Repair of personal and household goods","952","group","2022",260
+"952 : Repair of personal and household goods","952","group","2023",255
+"952 : Repair of personal and household goods","952","group","2024",250
+"96 : Other personal service activities","96","division","2019",5470
+"96 : Other personal service activities","96","division","2020",5180
+"96 : Other personal service activities","96","division","2021",4985
+"96 : Other personal service activities","96","division","2022",5090
+"96 : Other personal service activities","96","division","2023",5080
+"96 : Other personal service activities","96","division","2024",5085
+"960 : Other personal service activities","960","group","2019",5470
+"960 : Other personal service activities","960","group","2020",5180
+"960 : Other personal service activities","960","group","2021",4985
+"960 : Other personal service activities","960","group","2022",5090
+"960 : Other personal service activities","960","group","2023",5080
+"960 : Other personal service activities","960","group","2024",5085
+"Total",NA,NA,"2019",281175
+"Total",NA,NA,"2020",276550
+"Total",NA,NA,"2021",281975
+"Total",NA,NA,"2022",291115
+"Total",NA,NA,"2023",291490
+"Total",NA,NA,"2024",292125

@@ -1,0 +1,10 @@
+var1,var2,correlation
+lag_log_active,lag_log_active,1
+lag_log_high_growth,lag_log_active,0.9155031548835592
+lag_survival_1yr,lag_log_active,0.5538944359416996
+lag_log_active,lag_log_high_growth,0.9155031548835592
+lag_log_high_growth,lag_log_high_growth,1
+lag_survival_1yr,lag_log_high_growth,0.4545333190547924
+lag_log_active,lag_survival_1yr,0.5538944359416996
+lag_log_high_growth,lag_survival_1yr,0.4545333190547924
+lag_survival_1yr,lag_survival_1yr,1

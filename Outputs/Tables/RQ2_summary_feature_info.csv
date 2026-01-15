@@ -1,0 +1,5 @@
+feature,description
+lag_log_active,Log(active enterprises) at t-1
+lag_log_high_growth,Log(high growth enterprises) at t-1
+lag_survival_1yr,1-year survival rate at t-1
+lag_log_births (baseline only),Lagged log births at t-1 used as naive baseline

@@ -1,0 +1,3 @@
+fold_id,train_years,test_year,train_n,test_n
+Train_2020_2021_Test_2022,"2020, 2021",2022,162,81
+Train_2020_2022_Test_2023,"2020, 2021, 2022",2023,243,81
