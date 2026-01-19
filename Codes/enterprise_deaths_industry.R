@@ -17,7 +17,7 @@ df <- df %>%
   select(where(~ !all(is.na(.)))) %>%
   filter(!if_all(everything(), is.na))
 
-# Clean column names (remove spaces, fix weird Excel header formatting)
+# Clean column names (remove spaces, fix Excel header formatting)
 names(df) <- str_trim(names(df))
 
 # Keep original industry label and remove extra whitespace
