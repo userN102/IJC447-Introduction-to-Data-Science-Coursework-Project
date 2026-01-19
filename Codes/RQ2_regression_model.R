@@ -78,10 +78,10 @@ glimpse(model_data)
 print(sort(unique(model_data$year)))
 
 
-# Lag Verification 
+# Lag Verification (against leakage)
 # Confirms lag variables reference the previous year within each industry.
 
-cat("\n=== VERIFYING LAG CONSTRUCTION ===\n")
+cat("\n VERIFYING LAG CONSTRUCTION \n")
 
 lag_verification <- model_data %>%
   arrange(industry_code, year) %>%
@@ -129,8 +129,6 @@ model_data <- model_data %>%
   mutate(.row = row_number())
 
 
-
-
 print(sort(unique(model_data$year)))
 
 make_year_split <- function(data, train_years, test_year, id_label) {
@@ -168,7 +166,7 @@ folds
 
 # Print fold structure
 purrr::iwalk(folds$splits, function(s, i) {
-  cat("\n---", folds$id[i], "---\n")
+  cat("\n  ", folds$id[i], "  \n")
   cat("Train years:", paste(sort(unique(rsample::analysis(s)$year)), collapse = ", "), "\n")
   cat("Test years :", paste(sort(unique(rsample::assessment(s)$year)), collapse = ", "), "\n")
   cat("Train n =", nrow(rsample::analysis(s)), "| Test n =", nrow(rsample::assessment(s)), "\n")
@@ -190,46 +188,11 @@ prep_rec <- prep(rec_shared, training = model_data)
 n_pred <- ncol(juice(prep_rec)) - 1
 message("Number of predictors after preprocessing: ", n_pred)
 
-# Predictor correlations 
-
-cat("\n=== PREDICTOR CORRELATIONS (LAG FEATURES) ===\n")
-
-cor_matrix <- model_data %>%
-  select(lag_log_active, lag_log_high_growth, lag_survival_1yr) %>%
-  cor(use = "complete.obs")
-
-print(round(cor_matrix, 3))
-
-# Flag high correlations (potential multicollinearity)
-high_cor_pairs <- which(abs(cor_matrix) > 0.8 & abs(cor_matrix) < 1, arr.ind = TRUE)
-
-if (nrow(high_cor_pairs) > 0) {
-  cat("\n High correlations detected (|r| > 0.8):\n")
-  for (i in seq_len(nrow(high_cor_pairs))) {
-    row_var <- rownames(cor_matrix)[high_cor_pairs[i, 1]]
-    col_var <- colnames(cor_matrix)[high_cor_pairs[i, 2]]
-    cor_val <- cor_matrix[high_cor_pairs[i, 1], high_cor_pairs[i, 2]]
-    cat(sprintf("  %s <-> %s: r = %.3f\n", row_var, col_var, cor_val))
-  }
-} else {
-  cat("No concerning multicollinearity detected (all |r| < 0.8)\n\n")
-}
-
-# Save correlation matrix 
-cor_long <- as.data.frame(as.table(cor_matrix)) %>%
-  as_tibble() %>%
-  rename(var1 = Var1, var2 = Var2, correlation = Freq)
-
-write_csv(cor_long, "./Outputs/Tables/RQ2_predictor_correlations.csv")
-
 
 # Baseline evaluation (Naive lag births)
 # Baseline predicts births_t using births_(t-1).
 # I compute baseline metrics per fold (same test years).
 
-print(rmse)
-print(rsq)
-print(mae)
 
 # Baseline prediction: log_births_t ≈ log_births_(t-1)
 calc_metrics <- function(df, truth, estimate) {
@@ -246,12 +209,6 @@ baseline_fold_metrics <- purrr::imap_dfr(folds$splits, function(s, i) {
     mutate(id = folds$id[i])
 })
 
-# With only 2 folds, keep fold-level metrics
-write_csv(
-  baseline_fold_metrics,
-  "./Outputs/Tables/RQ2_timeCV_baseline_metrics_by_fold.csv"
-)
-
 
 baseline_metrics <- baseline_fold_metrics %>%
   group_by(.metric) %>%
@@ -263,8 +220,6 @@ baseline_metrics <- baseline_fold_metrics %>%
   ) %>%
   mutate(model = "Naive lag baseline") %>%
   select(model, .metric, mean, std_err, n)
-
-write_csv(baseline_metrics, "./Outputs/Tables/RQ2_timeCV_baseline_metrics.csv")
 
 
 # Linear Regression (time-aware CV)
@@ -290,16 +245,10 @@ lm_metrics <- collect_metrics(lm_cv) %>%
   mutate(model = "Linear regression (lag-only)")
 
 
-lm_metrics_by_fold <- collect_metrics(lm_cv, summarize = FALSE) %>%
-  mutate(model = "Linear regression (lag-only)")
-
-write_csv(
-  lm_metrics_by_fold,
-  "./Outputs/Tables/RQ2_timeCV_lm_metrics_by_fold.csv"
-)
-
 
 # Random Forest (tuned, time-aware CV)
+prep_rec <- prep(rec_shared, training = model_data)
+n_pred <- ncol(juice(prep_rec)) - 1
 
 rf_spec <- rand_forest(
   trees = 300,
@@ -330,15 +279,6 @@ rf_tune <- tune_grid(
 
 best_rf <- select_best(rf_tune, metric = "rmse")
 
-write_csv(
-  show_best(rf_tune, metric = "rmse", n = 10),
-  "./Outputs/Tables/RQ2_timeCV_rf_tuning_top10_rmse.csv"
-)
-
-write_csv(
-  tibble(best_rf),
-  "./Outputs/Tables/RQ2_timeCV_rf_best_params.csv"
-)
 
 rf_final_wf <- finalize_workflow(rf_wf, best_rf)
 
@@ -356,10 +296,7 @@ rf_metrics <- collect_metrics(rf_cv_final) %>%
 rf_metrics_by_fold <- collect_metrics(rf_cv_final, summarize = FALSE) %>%
   mutate(model = "Random forest (tuned, lag-only)")
 
-write_csv(
-  rf_metrics_by_fold,
-  "./Outputs/Tables/RQ2_timeCV_rf_metrics_by_fold.csv"
-)
+
 
 # Export metrics (baseline + LM + RF)
 
@@ -371,53 +308,6 @@ metrics_table <- bind_rows(
   arrange(.metric, model)
 
 write_csv(metrics_table, "./Outputs/Tables/RQ2_timeCV_metrics_with_baseline_rmse_r2_mae.csv")
-
-
-# Model comparison summary (not a statistical test)
-
-cat("\n=== MODEL PERFORMANCE SUMMARY (RMSE) ===\n")
-
-baseline_rmse <- baseline_metrics %>% filter(.metric == "rmse") %>% pull(mean)
-
-perf_summary <- metrics_table %>%
-  filter(.metric == "rmse") %>%
-  arrange(mean) %>%
-  mutate(
-    rank = row_number(),
-    improvement_vs_baseline_pct = (baseline_rmse - mean) / baseline_rmse * 100
-  )
-
-print(perf_summary)
-
-cat("\nKey findings:\n")
-best_model <- perf_summary %>% slice_min(mean, n = 1)
-cat(sprintf(" Best model: %s (RMSE = %.4f)\n", best_model$model, best_model$mean))
-
-if (best_model$mean < baseline_rmse) {
-  cat(sprintf(" Improvement over baseline: %.1f%%\n", best_model$improvement_vs_baseline_pct))
-} else {
-  cat(" Best model does NOT beat naive baseline.\n")
-}
-
-# Practical comparison: LM vs RF (not a statistical test)
-lm_rmse <- metrics_table %>%
-  filter(model == "Linear regression (lag-only)", .metric == "rmse") %>%
-  pull(mean)
-
-rf_rmse <- metrics_table %>%
-  filter(model == "Random forest (tuned, lag-only)", .metric == "rmse") %>%
-  pull(mean)
-
-rmse_diff_pct <- abs(lm_rmse - rf_rmse) / min(lm_rmse, rf_rmse) * 100
-
-if (length(lm_rmse) == 1 && length(rf_rmse) == 1) {
-  if (rmse_diff_pct < 5) {
-    cat(sprintf("  • LM vs RF difference: %.1f%% (practically similar)\n", rmse_diff_pct))
-  } else {
-    winner <- ifelse(lm_rmse < rf_rmse, "Linear Regression", "Random Forest")
-    cat(sprintf("  • %s performs better (%.1f%% lower RMSE)\n", winner, rmse_diff_pct))
-  }
-}
 
 
 # Collect predictions (all models) for plots and analysis
@@ -474,8 +364,6 @@ cv_preds_all <- bind_rows(
   )
 
 
-write_csv(cv_preds_all, "./Outputs/Tables/RQ2_timeCV_predictions_log_births_all_models.csv")
-
 count(cv_preds_all, model, test_year)
 
 
@@ -511,64 +399,9 @@ ggsave(
   p_resid_pred, width = 12, height = 8, dpi = 300
 )
 
-p_resid_hist <- ggplot(cv_preds_all, aes(x = residual)) +
-  geom_histogram(bins = 30) +
-  facet_grid(model ~ test_year) +
-  labs(
-    title = "Time-aware CV: Residual distributions (log births)",
-    x = "Residual (observed - predicted)",
-    y = "Frequency"
-  )
-
-ggsave(
-  "./Outputs/Visuals/RQ2_timeCV_residuals_distribution.png",
-  p_resid_hist, width = 12, height = 8, dpi = 300
-)
 
 
-# Save complete summary report
-
-cat("\n=== SAVING SUMMARY REPORT ===\n")
-
-summary_report <- list(
-  data_info = tibble(
-    n_industries = n_distinct(model_data$industry_code),
-    n_years = n_distinct(model_data$year),
-    n_observations_total = nrow(model_data),
-    n_observations_test_total = sum(map_int(folds$splits, ~nrow(rsample::assessment(.))))
-  ),
-  
-  cv_setup = tibble(
-    fold_id = folds$id,
-    train_years = c("2020, 2021", "2020, 2021, 2022"),
-    test_year = c("2022", "2023"),
-    train_n = map_int(folds$splits, ~nrow(rsample::analysis(.))),
-    test_n = map_int(folds$splits, ~nrow(rsample::assessment(.)))
-  ),
-  
-  feature_info = tibble(
-    feature = c("lag_log_active", "lag_log_high_growth", "lag_survival_1yr", "lag_log_births (baseline only)"),
-    description = c(
-      "Log(active enterprises) at t-1",
-      "Log(high growth enterprises) at t-1",
-      "1-year survival rate at t-1",
-      "Lagged log births at t-1 used as naive baseline"
-    )
-  ),
-  
-  performance_metrics = metrics_table
-)
-
-saveRDS(summary_report, "./Outputs/Tables/RQ2_complete_summary_report.rds")
-
-write_csv(summary_report$data_info, "./Outputs/Tables/RQ2_summary_data_info.csv")
-write_csv(summary_report$cv_setup, "./Outputs/Tables/RQ2_summary_cv_setup.csv")
-write_csv(summary_report$feature_info, "./Outputs/Tables/RQ2_summary_feature_info.csv")
-
-cat("Complete summary report saved to ./Outputs/Tables/\n")
-
-
-# 9) Back-transform (interpretation in original scale)
+# Back-transform (interpretation in original scale)
 
 cv_preds_bt <- cv_preds_all %>%
   mutate(

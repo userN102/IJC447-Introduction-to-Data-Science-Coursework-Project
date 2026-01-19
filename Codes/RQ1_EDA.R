@@ -29,8 +29,8 @@ colSums(is.na(master_panel))
 master_panel <- master_panel %>%
   mutate(
     year = as.integer(year),
-    industry_code = as.factor(industry_code), # use industry_name if preferred/available
-    industry_name = as.character(industry_name)  # keep for labels/plots
+    industry_code = as.factor(industry_code),
+    industry_name = as.character(industry_name)  # keep for labels or plots
     
   )
 
@@ -43,7 +43,7 @@ master_panel %>%
   )
 
 # Create EDA features (raw + transformed) 
-# Keep raw variables for interpretation, and log1p versions for skewed counts
+# Keep raw variables for interpretation and log1p versions for skewed counts
 eda <- master_panel %>%
   mutate(
     industry_name_wrapped = stringr::str_wrap(as.character(industry_name), width = 28),
@@ -119,17 +119,6 @@ p_hg_raw
 
 ggsave("./Outputs/Visuals/RQ1_high_growth_raw_distribution.png", p_hg_raw , width = 8, height = 5, dpi = 300)
 
-p_survival_1yr <- ggplot(eda, aes(survival_1yr)) +
-  geom_histogram(bins = 20) +
-  labs(title = "1-year survival rate (%)",
-       x = "Survival rate (%)", y = "Frequency")
-
-p_survival_1yr
-ggsave("./Outputs/Visuals/RQ1_survival_1yr_distribution.png",
-       p_survival_1yr, width = 8, height = 5, dpi = 300)
-
-
-
 
 # Log-transformed distributions (skew reduction)
 p_births_log <- ggplot(eda, aes(log_births)) +
@@ -146,8 +135,6 @@ p_deaths_log <- ggplot(eda, aes(log_deaths)) +
 
 p_deaths_log 
 ggsave("./Outputs/Visuals/RQ1_deaths_log_distribution.png", p_deaths_log, width = 8, height = 5, dpi = 300)
-
-
 
 
 p_active_log <- ggplot(eda, aes(log_active)) +
@@ -176,40 +163,9 @@ p_high_growth_log
 ggsave("./Outputs/Visuals/RQ1_high_growth_log_distribution.png", p_high_growth_log, width = 8, height = 5, dpi = 300)
 
 
-# Size-adjusted entry
-# Birth intensity distribution
-p_birth_intensity_hist <- ggplot(eda %>% filter(is.finite(birth_intensity)), aes(birth_intensity)) +
-  geom_histogram(bins = 30) +
-  labs(title = "Birth intensity (births per 1,000 active enterprises)",
-       x = "Birth intensity", y = "Frequency")
-
-p_birth_intensity_hist
-ggsave("./Outputs/Visuals/RQ1_birth_intensity_distribution.png",
-       p_birth_intensity_hist, width = 8, height = 5, dpi = 300)
-
-
+# Size-adjusted entry : Birth intensity 
 # Time patterns (variation over time)
-# Overall total births by year (across all industries)
-p_total_births_time <- eda %>%
-  group_by(year) %>%
-  summarise(total_births = sum(births, na.rm = TRUE), .groups = "drop") %>%
-  ggplot(aes(year, total_births)) +
-  geom_line() +
-  geom_point() +
-  labs(
-    title = "Total enterprise births across all industries (2019–2023)",
-    x = "Year",
-    y = "Total births"
-  )
-
-p_total_births_time 
-
-ggsave("./Outputs/Visuals/RQ1_total_births_over_time.png",
-       p_total_births_time, width = 8, height = 5, dpi = 300)
-
-
-
-# Birth intensity over time (overall) 
+# Birth intensity over time
 p_birth_intensity_time <- eda %>%
   group_by(year) %>%
   summarise(mean_birth_intensity = mean(birth_intensity, na.rm = TRUE),
@@ -255,26 +211,6 @@ ggsave("./Outputs/Visuals/RQ1_birth_intensity_top_industries.png",
        p_birth_intensity_top_industries, width = 9, height = 6, dpi = 300)
 
 
-
-p_births_top_industries <- eda %>%
-  filter(industry_code %in% top_industries) %>%
-  group_by(year, industry_code, industry_name_wrapped) %>%
-  summarise(births = sum(births, na.rm = TRUE), .groups = "drop") %>%
-  ggplot(aes(year, births, color = industry_name_wrapped)) +
-  geom_line() +
-  geom_point() +
-  labs(
-    title = "Enterprise births over time for top industries",
-    x = "Year",
-    y = "Births",
-    color = "Industry"
-  )
-
-p_births_top_industries
-ggsave("./Outputs/Visuals/RQ1_births_over_time_top_industries.png",
-       p_births_top_industries, width = 9, height = 6, dpi = 300)
-
-
 # Industry comparisons (differences across industries) 
 # Distribution of births across top industries (boxplot)
 # Boxplot: births distribution across top industries 
@@ -294,21 +230,6 @@ p_births_box_top
 ggsave("./Outputs/Visuals/RQ1_7_births_distribution_by_industry.png",
        p_births_box_top, width = 9, height = 6, dpi = 300)
 
-
-# Top 10 industries by total births
-eda %>%
-  group_by(industry_code, industry_name_wrapped) %>%
-  summarise(total_births = sum(births, na.rm = TRUE), .groups = "drop") %>%
-  arrange(desc(total_births)) %>%
-  slice_head(n = 10)
-
-# Top 10 industries by average birth intensity
-eda %>%
-  filter(is.finite(birth_intensity)) %>%
-  group_by(industry_code,industry_name_wrapped) %>%
-  summarise(mean_birth_intensity = mean(birth_intensity, na.rm = TRUE), .groups = "drop") %>%
-  arrange(desc(mean_birth_intensity)) %>%
-  slice_head(n = 10)
 
 # Associations (births vs size, survival, high-growth) 
 # Scatterplots with trend lines
@@ -373,74 +294,6 @@ ggsave("./Outputs/Visuals/RQ1_births_vs_deaths.png",
 
 
 
-p_intensity_vs_size <- ggplot(
-  eda %>% filter(is.finite(birth_intensity)),
-  aes(log_active, birth_intensity)
-) +
-  geom_point(alpha = 0.5) +
-  geom_smooth(method = "lm", se = FALSE) +
-  labs(
-    title = "Association: birth intensity vs industry size",
-    x = "log(1 + active enterprises)",
-    y = "Births per 1,000 active enterprises"
-  )
-
-p_intensity_vs_size
-ggsave("./Outputs/Visuals/RQ1_birth_intensity_vs_industry_size.png",
-       p_intensity_vs_size, width = 8, height = 5, dpi = 300)
-
-
-p_intensity_vs_high_growth <- ggplot(
-  eda %>% filter(is.finite(birth_intensity)),
-  aes(log_high_growth, birth_intensity)
-) +
-  geom_point(alpha = 0.5) +
-  geom_smooth(method = "lm", se = FALSE) +
-  labs(
-    title = "Association: birth intensity vs high-growth activity",
-    x = "log(1 + high-growth enterprises)",
-    y = "Births per 1,000 active enterprises"
-  )
-
-p_intensity_vs_high_growth
-ggsave("./Outputs/Visuals/RQ1_birth_intensity_vs_high_growth.png",
-       p_intensity_vs_high_growth, width = 8, height = 5, dpi = 300)
-
-
-p_intensity_vs_survival <- ggplot(
-  eda %>% filter(is.finite(birth_intensity)),
-  aes(survival_1yr, birth_intensity)
-) +
-  geom_point(alpha = 0.5) +
-  geom_smooth(method = "lm", se = FALSE) +
-  labs(
-    title = "Association: birth intensity vs 1-year survival rate",
-    x = "1-year survival (%)",
-    y = "Births per 1,000 active enterprises"
-  )
-
-p_intensity_vs_survival
-ggsave("./Outputs/Visuals/RQ1_birth_intensity_vs_survival_1yr.png",
-       p_intensity_vs_survival, width = 8, height = 5, dpi = 300)
-
-
-p_intensity_vs_deaths <- ggplot(
-  eda %>% filter(is.finite(birth_intensity)),
-  aes(log_deaths, birth_intensity)
-) +
-  geom_point(alpha = 0.5) +
-  geom_smooth(method = "lm", se = FALSE) +
-  labs(
-    title = "Association: birth intensity vs deaths (context)",
-    x = "log(1 + deaths)",
-    y = "Births per 1,000 active enterprises"
-  )
-
-p_intensity_vs_deaths
-ggsave("./Outputs/Visuals/RQ1_birth_intensity_vs_deaths.png",
-       p_intensity_vs_deaths, width = 8, height = 5, dpi = 300)
-
-
 # Correlation analysis (feature selection justification) 
 # Survival measures correlation (supports selecting one survival metric)
 survival_only <- eda %>%
@@ -503,11 +356,4 @@ target_assoc <- eda %>%
 
 round(cor(target_assoc, use = "pairwise.complete.obs"), 2)
 
-# EDA conclusions
-cat(
-  "\nEDA conclusion notes:\n",
-  "- Distributions for births, size and high-growth are right-skewed; log1p transforms are suitable.\n",
-  "- Survival measures (1–5 years) are strongly correlated; selecting one (such as 1-year) is justified.\n",
-  "- Size measures (active vs active_10plus) may be redundant; correlation will inform which to keep.\n",
-  "- Deaths provide useful context for churn but may be highly correlated with size; consider exclusion.\n"
-)
+

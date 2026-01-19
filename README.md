@@ -21,39 +21,43 @@ This project analyses UK industry-level business demography data (ONS) to unders
 ---
 
 ## Repository Structure
+## Repository Structure
+
+```text
 Codes/
-  ├─ active_enterprises_10_employer_industry.R
-  ├─ active_enterprises_industry.R
-  ├─ enterprise_births_industry.R
-  ├─ enterprise_deaths_industry.R
-  ├─ enterprise_survival_industry.R
-  ├─ high_growth_enterprises_industry.R
-  ├─ merge_industry_characteristics.R
-  ├─ RQ1_EDA.R
-  └─ RQ2_regression_model.R
+├── active_enterprises_10_employer_industry.R
+├── active_enterprises_industry.R
+├── enterprise_births_industry.R
+├── enterprise_deaths_industry.R
+├── enterprise_survival_industry.R
+├── high_growth_enterprises_industry.R
+├── merge_industry_characteristics.R
+├── RQ1_EDA.R
+└── RQ2_regression_model.R
 
 Dataset/
-  ├─ ONS_Business_Demography/
-  │   ├─ ons_original.xlsx
-  │   ├─ Births_Of_New_Enterprises_2019_2024_by_Industry.xlsx
-  │   ├─ Deaths_Of_New_Enterprises_2019_2024_by_Industry.xlsx
-  │   ├─ Active_Enterprises_2019_2024_by_Industry.xlsx
-  │   ├─ Active_Enterprises_10+_Emp_2019_2024_by_Industry.xlsx
-  │   ├─ High_Growth_Enterprises_2019_2024_by_Industry.xlsx
-  │   └─ Births_and_Survival_of_Enterprises_2019_2023_by_Industry.xlsx
-  └─ Final_Master_Datasets/
-      └─ master_panel_industry_characteristics_2019_2023.xlsx
+├── ONS_Business_Demography/
+│   ├── ons_original.xlsx
+│   ├── Births_Of_New_Enterprises_2019_2024_by_Industry.xlsx
+│   ├── Deaths_Of_New_Enterprises_2019_2024_by_Industry.xlsx
+│   ├── Active_Enterprises_2019_2024_by_Industry.xlsx
+│   ├── Active_Enterprises_10+_Emp_2019_2024_by_Industry.xlsx
+│   ├── High_Growth_Enterprises_2019_2024_by_Industry.xlsx
+│   └── Births_and_Survival_of_Enterprises_2019_2023_by_Industry.xlsx
+└── Final_Master_Datasets/
+    └── master_panel_industry_characteristics_2019_2023.xlsx
 
 Outputs/
-  ├─ Tables/
-  └─ Visuals/
+├── Tables/
+└── Visuals/
 
-Workflow Diagram/
-  └─ workflow.png
+Workflow_Diagram/
+└── workflow.png
+
 
 A workflow diagram summarising the full data pipeline is provided in the Workflow Diagram/ folder.
 
-## R Code (What each script does)
+## R Code
 
 ### 1) Data extraction (from the ONS Excel workbook)
 
@@ -127,12 +131,12 @@ Run scripts in this order:
 
 1. **Data extraction scripts** (create cleaned CSV files from the Excel workbook)
 
-   * enterprise_births_industry.R
-   * enterprise_deaths_industry.R
-   * active_enterprises_industry.R
-   * active_enterprises_10_employer_industry.R
-   * high_growth_enterprises_industry.R
-   * enterprise_survival_industry.R
+   * `enterprise_births_industry.R`
+   * `enterprise_deaths_industry.R`
+   * `active_enterprises_industry.R`
+   * `active_enterprises_10_employer_industry.R`
+   * `high_growth_enterprises_industry.R`
+   * `enterprise_survival_industry.R`
 
 2. **Build the master panel**
 
