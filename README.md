@@ -1,7 +1,7 @@
 
 # IJC447-Introduction-to-Data-Science-Coursework-Project
 
-# Enterprise Entry, Survival, and Growth across UK Industries (2019–2023)
+# Explaining Patterns and Short-Term Prediction of Enterprise Births Across UK Industries Using Business Demography Indicators, 2019–2023
 
 This project analyses UK industry-level business demography data (ONS) to understand how **enterprise births** differ across industries and time. It combines cleaned ONS tables into a single master panel, uses **exploratory data analysis (EDA)** to describe patterns and relationships, and then evaluates **forecast-style prediction models** using lagged indicators and time-aware cross-validation.
 
