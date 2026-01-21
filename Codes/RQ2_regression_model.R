@@ -300,6 +300,8 @@ rf_metrics_by_fold <- collect_metrics(rf_cv_final, summarize = FALSE) %>%
 
 # Export metrics (baseline + LM + RF)
 
+# Table 1.Time-aware cross-validation performance of linear regression, random forest and a naïve lagged-births baseline. 
+
 metrics_table <- bind_rows(
   baseline_metrics,
   lm_metrics %>% rename(mean = mean, std_err = std_err, n = n) %>% select(model, .metric, mean, std_err, n),
@@ -369,6 +371,8 @@ count(cv_preds_all, model, test_year)
 
 # Diagnostic plots (include baseline)
 
+
+# Figure 18.Observed versus predicted enterprise births under time-aware cross-validation.
 p_obs_pred <- ggplot(cv_preds_all, aes(x = observed, y = predicted)) +
   geom_point(alpha = 0.35) +
   geom_smooth(method = "lm", se = FALSE) +
@@ -384,6 +388,8 @@ ggsave(
   p_obs_pred, width = 12, height = 8, dpi = 300
 )
 
+# Figure 19.Residuals versus predicted values for enterprise births under time-aware cross-validation (log scale), by model 
+# and test year.
 p_resid_pred <- ggplot(cv_preds_all, aes(x = predicted, y = residual)) +
   geom_point(alpha = 0.35) +
   geom_hline(yintercept = 0, linetype = "dashed") +
@@ -403,6 +409,8 @@ ggsave(
 
 # Back-transform (interpretation in original scale)
 
+# Figure 20.Observed versus predicted enterprise births on the original scale under time-aware cross-validation, by model 
+# and test year. 
 cv_preds_bt <- cv_preds_all %>%
   mutate(
     observed_births  = expm1(observed),

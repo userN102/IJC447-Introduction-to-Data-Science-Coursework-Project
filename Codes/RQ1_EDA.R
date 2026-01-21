@@ -77,6 +77,8 @@ p_births_raw <- ggplot(eda, aes(births)) +
   geom_histogram(bins = 30) +
   labs(title = "Enterprise births (raw)", x = "Births", y = "Frequency")
 
+
+# Figure 2.Distribution of enterprise births across UK industries (2019–2023). 
 p_births_raw
 ggsave("./Outputs/Visuals/RQ1_births_raw_distribution.png", p_births_raw, width = 8, height = 5, dpi = 300)
 
@@ -85,8 +87,8 @@ p_active_raw <- ggplot(eda, aes(active)) +
   geom_histogram(bins = 30) +
   labs(title = "Active enterprises (raw)", x = "Active enterprises", y = "Frequency")
 
+# Figure 3.Distribution of active enterprises across UK industries (2019–2023). 
 p_active_raw
-
 ggsave("./Outputs/Visuals/RQ1_active_enterprises_raw_distribution.png", p_active_raw, width = 8, height = 5, dpi = 300)
 
 
@@ -97,7 +99,6 @@ p_active_10plus_raw <- ggplot(eda, aes(active_10plus)) +
 
 
 p_active_10plus_raw
-
 ggsave("./Outputs/Visuals/RQ1_active_enterprises_10plus_raw_distribution.png", p_active_10plus_raw, width = 8, height = 5, dpi = 300)
 
 
@@ -106,6 +107,7 @@ p_deaths_raw <- ggplot(eda, aes(deaths)) +
   labs(title = "Enterprise deaths (raw)", x = "Deaths", y = "Frequency")
 
 
+# Figure 4.Distribution of enterprise deaths across UK industries (2019–2023). 
 p_deaths_raw
 ggsave("./Outputs/Visuals/RQ1_deaths_raw_distribution.png", p_deaths_raw, width = 8, height = 5, dpi = 300)
 
@@ -115,8 +117,8 @@ p_hg_raw <- ggplot(eda, aes(high_growth)) +
   geom_histogram(bins = 30) +
   labs(title = "High-growth enterprises (raw)", x = "High-growth enterprises", y = "Frequency")
 
+# Figure 5.Distribution of high-growth enterprises across UK industries (2019–2023). 
 p_hg_raw
-
 ggsave("./Outputs/Visuals/RQ1_high_growth_raw_distribution.png", p_hg_raw , width = 8, height = 5, dpi = 300)
 
 
@@ -125,24 +127,29 @@ p_births_log <- ggplot(eda, aes(log_births)) +
   geom_histogram(bins = 30) +
   labs(title = "Enterprise births (log1p)", x = "log(1 + births)", y = "Frequency")
 
+# Figure 6.Distribution of enterprise births after log(1+x) transformation (2019–2023).
 p_births_log 
 ggsave("./Outputs/Visuals/RQ1_births_log_distribution.png", p_births_log, width = 8, height = 5, dpi = 300)
-
-
-p_deaths_log <- ggplot(eda, aes(log_deaths)) +
-  geom_histogram(bins = 30) +
-  labs(title = "Enterprise deaths (log1p)", x = "log(1 + deaths)", y = "Frequency")
-
-p_deaths_log 
-ggsave("./Outputs/Visuals/RQ1_deaths_log_distribution.png", p_deaths_log, width = 8, height = 5, dpi = 300)
 
 
 p_active_log <- ggplot(eda, aes(log_active)) +
   geom_histogram(bins = 30) +
   labs(title = "Active enterprises (log1p)", x = "log(1 + active)", y = "Frequency")
 
+
+# Figure 7.Distribution of active enterprises after log(1+x) transformation (2019–2023). 
 p_active_log 
 ggsave("./Outputs/Visuals/RQ1_active_log_distribution.png", p_active_log, width = 8, height = 5, dpi = 300)
+
+
+p_deaths_log <- ggplot(eda, aes(log_deaths)) +
+  geom_histogram(bins = 30) +
+  labs(title = "Enterprise deaths (log1p)", x = "log(1 + deaths)", y = "Frequency")
+
+# Figure 8.Distribution of enterprise deaths after log(1+x) transformation (2019–2023). 
+p_deaths_log 
+ggsave("./Outputs/Visuals/RQ1_deaths_log_distribution.png", p_deaths_log, width = 8, height = 5, dpi = 300)
+
 
 
 p_active_10plus_log <- ggplot(eda, aes(log_active_10plus)) +
@@ -153,19 +160,19 @@ p_active_10plus_log
 ggsave("./Outputs/Visuals/RQ1_active_10plus_log_distribution.png", p_active_10plus_log, width = 8, height = 5, dpi = 300)
 
 
-
-
 p_high_growth_log <- ggplot(eda, aes(log_high_growth)) +
   geom_histogram(bins = 30) +
   labs(title = "High-growth enterprises (log1p)", x = "log(1 + high-growth)", y = "Frequency")
 
+
+# Figure 9.Distribution of high-growth enterprises after log(1+x) transformation (2019–2023). 
 p_high_growth_log 
 ggsave("./Outputs/Visuals/RQ1_high_growth_log_distribution.png", p_high_growth_log, width = 8, height = 5, dpi = 300)
 
 
 # Size-adjusted entry : Birth intensity 
-# Time patterns (variation over time)
-# Birth intensity over time
+# Figure 10.Average number of enterprise births per 1,000 active enterprises across UK industries, 2019–2023. 
+
 p_birth_intensity_time <- eda %>%
   group_by(year) %>%
   summarise(mean_birth_intensity = mean(birth_intensity, na.rm = TRUE),
@@ -183,7 +190,9 @@ p_birth_intensity_time
 ggsave("./Outputs/Visuals/RQ1_birth_intensity_over_time.png",
        p_birth_intensity_time, width = 8, height = 5, dpi = 300)
 
-# Top 10 industries by total births for readable time-series comparison
+
+# Figure 12.Birth intensity over time for selected UK industries, 2019–2023. 
+
 top_industries <- eda %>%
   group_by(industry_code) %>%
   summarise(total_births = sum(births, na.rm = TRUE), .groups = "drop") %>%
@@ -212,8 +221,7 @@ ggsave("./Outputs/Visuals/RQ1_birth_intensity_top_industries.png",
 
 
 # Industry comparisons (differences across industries) 
-# Distribution of births across top industries (boxplot)
-# Boxplot: births distribution across top industries 
+# Figure 11.Distribution of enterprise births across selected UK industries, 2019–2023. 
 
 p_births_box_top <- eda %>%
   filter(industry_code %in% top_industries) %>%
@@ -234,6 +242,8 @@ ggsave("./Outputs/Visuals/RQ1_7_births_distribution_by_industry.png",
 # Associations (births vs size, survival, high-growth) 
 # Scatterplots with trend lines
 # These plots show patterns and they do not establish causality.
+
+# Figure 13.Association between birth and industry size. 
 p_births_vs_size <- ggplot(eda, aes(log_active, log_births)) +
   geom_point(alpha = 0.5) +
   geom_smooth(method = "lm", se = FALSE) +
@@ -248,7 +258,7 @@ ggsave("./Outputs/Visuals/RQ1_births_vs_industry_size.png",
        p_births_vs_size, width = 8, height = 5, dpi = 300)
 
 
-
+# Figure 14.Association between births and high-growth enterprise activity.
 p_births_vs_high_growth <- ggplot(eda, aes(log_high_growth, log_births)) +
   geom_point(alpha = 0.5) +
   geom_smooth(method = "lm", se = FALSE) +
@@ -263,7 +273,7 @@ ggsave("./Outputs/Visuals/RQ1_births_vs_high_growth.png",
        p_births_vs_high_growth, width = 8, height = 5, dpi = 300)
 
 
-
+# Figure 15.Association between birth and one-year survival rate.
 p_births_vs_survival <- ggplot(eda, aes(survival_1yr, log_births)) +
   geom_point(alpha = 0.5) +
   geom_smooth(method = "lm", se = FALSE) +
@@ -295,7 +305,8 @@ ggsave("./Outputs/Visuals/RQ1_births_vs_deaths.png",
 
 
 # Correlation analysis (feature selection justification) 
-# Survival measures correlation (supports selecting one survival metric)
+
+# Figure 16.Correlation between enterprise survival rates across time horizons. 
 survival_only <- eda %>%
   select(survival_1yr, survival_2yr, survival_3yr, survival_4yr, survival_5yr)
 
@@ -317,6 +328,8 @@ corrplot(
 dev.off()
 
 # Correlation among predictors (justifies dropping redundant predictors)
+
+# Figure 17.Correlation matrix of key predictors used in modelling. 
 predictor_corr <- eda %>%
   select(
     log_active,
@@ -343,7 +356,6 @@ corrplot(
 
 dev.off()
 
-# Target–predictor correlation 
 target_assoc <- eda %>%
   select(
     log_births,
