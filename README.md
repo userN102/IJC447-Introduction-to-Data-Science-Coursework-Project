@@ -1,13 +1,13 @@
 
-# IJC447-Introduction-to-Data-Science-Coursework-Project
+# IJC437-Introduction-to-Data-Science-Coursework-Project
 
 # Explaining Patterns and Short-Term Prediction of Enterprise Births Across UK Industries Using Business Demography Indicators, 2019–2023
 
 This repository is published as a GitHub Pages project site at:  
-[https://usern102.github.io/IJC447-Introduction-to-Data-Science-Coursework-Project/](https://usern102.github.io/IJC447-Introduction-to-Data-Science-Coursework-Project/)
+[https://usern102.github.io/IJC437-Introduction-to-Data-Science-Coursework-Project/](https://usern102.github.io/IJC447-Introduction-to-Data-Science-Coursework-Project/)
 
 **GitHub Repository:**  
-[https://github.com/userN102/IJC447-Introduction-to-Data-Science-Coursework-Project](https://github.com/userN102/IJC447-Introduction-to-Data-Science-Coursework-Project)
+[https://github.com/userN102/IJC437-Introduction-to-Data-Science-Coursework-Project](https://github.com/userN102/IJC447-Introduction-to-Data-Science-Coursework-Project)
 
 
 This project analyses UK industry-level business demography data (ONS) to understand how **enterprise births** differ across industries and time. It combines cleaned ONS tables into a single master panel, uses **exploratory data analysis (EDA)** to describe patterns and relationships, and then evaluates **forecast-style prediction models** using lagged indicators and time-aware cross-validation.
@@ -30,7 +30,7 @@ This project analyses UK industry-level business demography data (ONS) to unders
 ## Repository Structure
 
 All R scripts are located in the `Codes/` folder:  
-[https://github.com/userN102/IJC447-Introduction-to-Data-Science-Coursework-Project/tree/main/Codes](https://github.com/userN102/IJC447-Introduction-to-Data-Science-Coursework-Project/tree/main/Codes)
+[https://github.com/userN102/IJC437-Introduction-to-Data-Science-Coursework-Project/tree/main/Codes](https://github.com/userN102/IJC447-Introduction-to-Data-Science-Coursework-Project/tree/main/Codes)
 
 
 ```text
