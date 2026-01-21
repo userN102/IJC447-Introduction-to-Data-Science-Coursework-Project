@@ -235,7 +235,7 @@ p_births_box_top <- eda %>%
   )
 
 p_births_box_top
-ggsave("./Outputs/Visuals/RQ1_7_births_distribution_by_industry.png",
+ggsave("./Outputs/Visuals/RQ1_births_distribution_by_industry.png",
        p_births_box_top, width = 9, height = 6, dpi = 300)
 
 
